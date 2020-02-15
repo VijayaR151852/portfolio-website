@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Monofett|Monoton|Oswald|Roboto|Akronim&display=swap');
+#id1
+{
+    color:white;
+    font-family:"Monofett";
+    font-size: 30px;
+    text-shadow: 2px 2px 5px red;
+}
+#id2
+{
+    color:white;
+    font-family:"Monoton";
+    font-size: 30px;
+    text-shadow: 2px 2px 5px red;
+    text-align: center;
+}
+.id4
+{
+    font-style:italic;
+    font-weight:900;
+    background-image:linear-gradient(red,black,blue,green);
+    /*background-color:black;*/
+    color:white;
+    font-size: 30px;
+}
+.id5{
+    font-family:"Akronim";
+    color:white;
+    font-size:30px;
+    text-shadow:2px 2px 5px red;
+}
+.id6
+{
+    text-align: justify;
+    color: white;
+}
