@@ -4,21 +4,39 @@
     width:32%;
     border-radius:10px;
 }
+.id2
+{
+    margin-right: 2%;
+}
+body{
+    background-color: grey;
+}
+h1
+{
+    margin-bottom:30px;
+}
 div
 {
     display:inline-block;
 }
 h2
 {
-    color:skyblue;
-    padding-left:15px;
+    color:dodgerblue;
 }
 h3
 {
+     margin-top:-10px;
     color:grey;
-    padding-left:15px;
 }
-p{
+.id3{
     padding-left:15px;
     padding-right:15px;
+}
+.id4
+{
+    border-bottom:2px solid dodgerblue;
+}
+.id5
+{
+    font-weight:normal;
 }
