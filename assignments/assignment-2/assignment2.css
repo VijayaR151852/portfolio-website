@@ -1,12 +1,12 @@
 .id1
 {
     background-color:slateblue;
+    height:40px;
+    display:inline-block;
 }
 .id2
 {
     background-color:dodgerblue;
-}
-span
-{
+    height:40px;
     display:inline-block;
 }
