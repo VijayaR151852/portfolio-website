@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Monofett|Monoton|Oswald|Roboto|Akronim|Open+Sans|Fira+Sans|Source+Sans+Pro:400,700&display=swap');
+.contactborder
+{
+    border-bottom:2px solid dodgerblue;
+}
+.contact
+{
+    font-size:24px;
+    margin-bottom:30px;
+    color:#595959;
+}
+img
+{
+    width:23.5%;
+    height: 40px;
+}
+.bold
+{
+    font-weight:bold;
+}
+.iconmargin
+{
+    margin-right: 2%;
+}
+.informationmargin{
+    margin-bottom:50px;
+}
+.followmargin
+{
+    margin-bottom:40px;
+}
+.followaligncolor
+{
+    text-align: center;
+    color:royalblue;
+    font-size:24px;
+}
+.font
+{
+    font-family: "Source Sans Pro";
+}

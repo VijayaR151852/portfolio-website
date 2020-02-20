@@ -1,8 +1,8 @@
-.id4
+.border
 {
     border-bottom:2px solid dodgerblue;
 }
-.id5
+.font
 {
     font-weight:normal;
 }
@@ -11,13 +11,12 @@ img
     height:50px;
     width:50px;
     margin-right:20px;
-    padding-left: 20px;
 }
 li
 {
     list-style-type:none;
 }
-.id3
+.margin
 {
     margin-bottom:20px;
 }
@@ -28,5 +27,4 @@ li
 .fsize
 {
     font-size:24px;
-    padding-left:10px;
 }

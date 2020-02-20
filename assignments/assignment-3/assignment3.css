@@ -2,6 +2,8 @@
 {
     background-color:white;
     width:32%;
+    height:300px;
+    overflow: scroll;
     border-radius:10px;
 }
 .id2
