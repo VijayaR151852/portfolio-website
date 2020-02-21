@@ -6,7 +6,7 @@
 }
 body
 {
-    background-color:lightblue;
+    background-color:lavender;
 }
 span
 {
@@ -14,62 +14,146 @@ span
 }
 .divstyle
 {
-    margin-left: 2%;
-    margin-right:5%;
+    margin-left: 20%;
+    margin-right:20%; 
+}
+.divcontainerstyle
+{
+    margin-left:5%;
+    text-align: center;
 }
 .techstyle
 {
     background-color:navy;
     color:white;
-    border-radius:20px;
+    margin-right:2%;
+    text-align: center;
+    border-radius: 20px;
 }
-.divcontainerstyle
+.imgpadding
 {
-    margin-left:5%;
-    text-align:center;
-    margin-bottom:5%;
+    padding-left:140px;
+}
+.comimgpad
+{
+    padding-left:90px;
+}
+.datascientstimgpad
+{
+    padding-left: 170px;
 }
 .managementstyle
 {
-    color:silver;
+    color:grey;
+    margin-right:2%;
     background-color:white;
-    border:1px solid silver;
+    border:1px solid grey;
     border-radius:20px;
 }
-.highereducationstyle
+.educationstyle
 {
     background-color:white;
-     border:1px solid black;
+    border:1px solid black;
     font-family:"Roboto";
     border-radius:20px;
+    margin-right:2%;
 }
 .entrepreneurstyle
 {
     background-color:white;
-     border:1px solid black;
+    border:1px solid black;
     font-family:"Roboto";
-    text-align: center;
     border-radius:20px;
 }
-.container
+.categories_style
+{
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:20px;
+    padding-right:20px;
+    font-size:12px;
+    font-family: "Roboto";
+}
+.comingsoon
+{
+    font-size:10px;
+    color:grey;
+    margin-left:-17%;
+    margin-top:-10px;
+    margin-bottom:5%;
+    text-align: center;
+}
+.techcontainer
 {
     width:28.5%;
     background-color:white;
-    border-left:4px solid dodgerblue;
     font-size:15px;
     height:40px;
     padding-left:2%;
     vertical-align:middle;
-    padding-top:15px;
+    padding-top:20px;
+    border-radius:5px;
     display:inline-block;
     margin-bottom: 5%;
 }
-img
+.datascientstcontainer
 {
-    display:block;
-    margin-left: auto;
+    width:29%;
+    background-color:white;
+    font-size:15px;
+    height:40px;
+    padding-left:2%;
+    border-radius: 5px;
+    vertical-align:middle;
+    padding-top:20px;
+    display:inline-block;
+    margin-bottom: 5%;
+}
+.techcatalogueborder
+{
+     border-left:4px solid dodgerblue;
+}
+.arvrcatalogueborder
+{
+      border-left:4px solid silver;
+}
+.cybersecurity_container
+{
+    width:28.5%;
+    background-color:white;
+    font-size:15px;
+    height:40px;
+    padding-left:2%;
+    margin-left:20%;
+    vertical-align:middle;
+    padding-top:20px;
+    border-radius: 5px;
+    display:inline-block;
+    margin-bottom: 5%;
+}
+p
+{
+    display: inline-block;
 }
 .marginright
 {
     margin-right:2%;
+}
+.waitlist
+{
+    background-color:darkorange;
+    color:white;
+    font-family: "Roboto";
+    border-radius:5px;
+    margin-left:45%;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-left: 25px;
+    padding-right:25px;
+    margin-bottom:-40%;
+}
+.iit
+{
+    margin-left:45%;
+    font-size:12px;
 }
