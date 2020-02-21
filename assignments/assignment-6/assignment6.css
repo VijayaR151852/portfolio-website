@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Monofett|Monoton|Oswald|Roboto|Akronim|Open+Sans|Fira+Sans|Source+Sans+Pro:400,700&display=swap');
+.content-align
+{
+    text-align: center;
+    margin-bottom:30px;
+}
+body
+{
+    background-color:lightblue;
+}
+span
+{
+    display:inline-block;
+}
+.divstyle
+{
+    margin-left: 2%;
+    margin-right:5%;
+}
+.techstyle
+{
+    background-color:navy;
+    color:white;
+    border-radius:20px;
+}
+.divcontainerstyle
+{
+    margin-left:5%;
+    text-align:center;
+    margin-bottom:5%;
+}
+.managementstyle
+{
+    color:silver;
+    background-color:white;
+    border:1px solid silver;
+    border-radius:20px;
+}
+.highereducationstyle
+{
+    background-color:white;
+     border:1px solid black;
+    font-family:"Roboto";
+    border-radius:20px;
+}
+.entrepreneurstyle
+{
+    background-color:white;
+     border:1px solid black;
+    font-family:"Roboto";
+    text-align: center;
+    border-radius:20px;
+}
+.container
+{
+    width:28.5%;
+    background-color:white;
+    border-left:4px solid dodgerblue;
+    font-size:15px;
+    height:40px;
+    padding-left:2%;
+    vertical-align:middle;
+    padding-top:15px;
+    display:inline-block;
+    margin-bottom: 5%;
+}
+img
+{
+    display:block;
+    margin-left: auto;
+}
+.marginright
+{
+    margin-right:2%;
+}
