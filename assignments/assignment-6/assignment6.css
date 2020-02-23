@@ -32,7 +32,11 @@ span
 }
 .imgpadding
 {
-    padding-left:140px;
+    padding-left:130px;
+}
+.aiimgpad
+{
+    padding-left:150px;
 }
 .comimgpad
 {
@@ -83,7 +87,7 @@ span
     margin-bottom:5%;
     text-align: center;
 }
-.techcontainer
+.fullcontainer
 {
     width:28.5%;
     background-color:white;
@@ -98,7 +102,7 @@ span
 }
 .datascientstcontainer
 {
-    width:29%;
+    width:28.5%;
     background-color:white;
     font-size:15px;
     height:40px;
@@ -109,7 +113,7 @@ span
     display:inline-block;
     margin-bottom: 5%;
 }
-.techcatalogueborder
+.fullcatalogueborder
 {
      border-left:4px solid dodgerblue;
 }
