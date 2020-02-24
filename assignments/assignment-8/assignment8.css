@@ -3,6 +3,8 @@ body
 {
     background-image:url(assets/bg-image.jpg);
     background-size:cover;
+    background-repeat:no-repeat;
+    margin:0px;
 }
 h1
 {
@@ -10,6 +12,7 @@ h1
     color:white;
     font-size:40px;
     font-family:"Roboto";
+    margin-top:5px%;
 }
 h2
 {
@@ -17,18 +20,18 @@ h2
     color:white;
     font-size:30px;
     font-family:"Roboto";
-    margin-bottom:13%;
+    margin-top:-3%;
+    margin-bottom:10.5%;
 }
 .middleimg
 {
-    background-image:url(../../static/Backgrounds/bg1.png);
+    /*background-image:url(../../dog.jpg);*/
     /*-webkit-clip-path: circle(50% at 50% 50%);*/
-    background-size:cover;
-    background-position:center;
     height:200px;
     width:200px;
-    margin:auto;
+    /*margin:auto;*/
     margin-top:20%;
+    margin-left:40%;
     border:4px solid white;
     border-radius:50%;
 }
@@ -38,22 +41,18 @@ h2
     margin-right:20px;
     background-color:white;
     border-radius:40px;
-    padding-top:20px;
-    padding-bottom:20px;
+    padding-top:5px;
+    padding-bottom:5px;
     margin-top:-8%;
 }
 span
 {
     margin-right:20px;
-    font-family: "Roboto";
+    font-family:"Roboto";
 }
 .navtoolbaralign
 {
     text-align:center;
-}
-*
-{
-    margin:0px;
 }
 .toolbarborder
 {
