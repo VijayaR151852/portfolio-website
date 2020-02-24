@@ -1,0 +1,22 @@
+img
+{
+    height:350px;
+    width:527px;
+    border:10px solid white;
+    display:inline-block;
+}
+body
+{
+    background-color:grey;
+}
+.frame
+{
+    width:250px;
+    height:250px;
+    border:20px solid orange;
+    margin-top:-40%;
+    margin-left:12%;
+    vertical-align: middle;
+    display:inline-block;
+}
+
