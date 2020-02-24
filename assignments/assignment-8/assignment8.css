@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Monofett|Monoton|Oswald|Roboto|Akronim|Open+Sans|Fira+Sans|Source+Sans+Pro:400,700&display=swap');
+body
+{
+    background-image:url(assets/bg-image.jpg);
+    background-size:cover;
+}
+h1
+{
+    text-align:center;
+    color:white;
+    font-size:40px;
+    font-family:"Roboto";
+}
+h2
+{
+    text-align:center;
+    color:white;
+    font-size:30px;
+    font-family:"Roboto";
+    margin-bottom:13%;
+}
+.middleimg
+{
+    background-image:url(../../static/Backgrounds/bg1.png);
+    /*-webkit-clip-path: circle(50% at 50% 50%);*/
+    background-size:cover;
+    background-position:center;
+    height:200px;
+    width:200px;
+    margin:auto;
+    margin-top:20%;
+    border:4px solid white;
+    border-radius:50%;
+}
+.navtoolbar
+{
+    margin-left:20px;
+    margin-right:20px;
+    background-color:white;
+    border-radius:40px;
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-top:-8%;
+}
+span
+{
+    margin-right:20px;
+    font-family: "Roboto";
+}
+.navtoolbaralign
+{
+    text-align:center;
+}
+*
+{
+    margin:0px;
+}
+.toolbarborder
+{
+    background-color:grey;
+    height:50px;
+    width:100%;
+}
