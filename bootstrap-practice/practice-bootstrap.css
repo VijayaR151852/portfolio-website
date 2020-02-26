@@ -79,20 +79,30 @@ p{
 .mobile1
 {
     background-color:#ff9900;
-    height:25vh;
+    height:17vh;
 }
 .mobile2
 {
     background-color:green;
-    height:25vh;
+    height:17vh;
 }
 .mobile3
 {
-    background-color:violet;
-    height:25vh;
+    background-color:blue;
+    height:17vh;
 }
 .mobile4
 {
     background-color:salmon;
-    height:25vh;
+    height:17vh;
+}
+.mobile5
+{
+    background-color:dodgerblue;
+    height:17vh;
+}
+.mobile6
+{
+    background-color:black;
+    height:17vh;
 }
