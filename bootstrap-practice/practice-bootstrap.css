@@ -106,3 +106,19 @@ p{
     background-color:black;
     height:17vh;
 }
+.CompaniesBlock
+{
+    background-color:silver;
+    border-radius:5px;
+    font-size:25px;
+    padding:3% 0;
+    word-wrap:break-word;
+    text-align:center;
+}
+.visitWebsite
+{
+    color:white;
+    background-color:dodgerblue;
+    border-radius:5px;
+    padding:6px;
+}
