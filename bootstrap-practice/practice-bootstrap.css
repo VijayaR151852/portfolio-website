@@ -1,4 +1,4 @@
-.rowpad
+/*.rowpad
 {
     margin-bottom:2%;
 }
@@ -75,4 +75,19 @@ p{
 {
     background-color:#5a57bb;
     height:40px;
+}*/
+.mobile1
+{
+    background-color:#ff9900;
+    height:33vh;
+}
+.mobile2
+{
+    background-color:green;
+    height:33vh;
+}
+.mobile3
+{
+    background-color:violet;
+    height:33vh;
 }
