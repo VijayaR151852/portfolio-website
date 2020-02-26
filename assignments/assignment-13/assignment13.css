@@ -1,0 +1,29 @@
+.block
+{
+    background-color:dodgerblue;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+.descriptionBlock
+{
+    margin-top:20px;
+    background-color:lavender;
+    margin-bottom:20px;
+}
+.descriptionFontSize
+{
+    font-size:8px;
+}
+.headingBorder
+{
+    border-bottom:3px solid dodgerblue;
+}
+.headingFont
+{
+    font-weight:normal;
+}
+h1
+{
+    margin-bottom:30px;
+}
