@@ -1,18 +1,22 @@
-.id1
+.blockstyle
 {
     background-color:slateblue;
     height:40px;
     display:inline-block;
 }
-.id2
+.blockstyle2
 {
     background-color:dodgerblue;
     height:40px;
     display:inline-block;
 }
-.id3
+.spacebetweenblocks
 {
     margin-top:10px;
+}
+.first
+{
+    width:100%;
 }
 .sec
 {

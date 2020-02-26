@@ -1,22 +1,17 @@
-img
-{
-    height:350px;
-    width:527px;
-    border:10px solid white;
-    display:inline-block;
-}
 body
 {
-    background-color:grey;
+    background-image: url(assets/rabbit.jpeg);
+    height:350px;
+    width:527px;
+    background-size:contain;
+    background-repeat:no-repeat;
 }
 .frame
 {
     width:250px;
     height:250px;
-    border:20px solid orange;
-    margin-top:-40%;
-    margin-left:12%;
-    vertical-align: middle;
-    display:inline-block;
+    border:15px solid orange;
+    margin-left:155px;
+    margin-top:10%;
 }
 

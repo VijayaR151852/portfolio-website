@@ -1,8 +1,8 @@
-.border
+.heading_border
 {
     border-bottom:2px solid dodgerblue;
 }
-.font
+.heading_font
 {
     font-weight:normal;
 }
@@ -16,15 +16,15 @@ li
 {
     list-style-type:none;
 }
-.margin
+.hobbies_spacing
 {
     margin-bottom:20px;
 }
-.val
+.img_align
 {
     vertical-align:middle;
 }
-.fsize
+.hobbies_fsize
 {
     font-size:24px;
 }
