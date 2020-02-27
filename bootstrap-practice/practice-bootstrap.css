@@ -75,7 +75,7 @@ p{
 {
     background-color:#5a57bb;
     height:40px;
-}*/
+}
 .mobile1
 {
     background-color:#ff9900;
@@ -123,4 +123,8 @@ p{
     background-color:dodgerblue;
     border-radius:5px;
     padding:6px;
+}*/
+.style{
+    height:100px;
+    background-color:#ff9900;
 }
