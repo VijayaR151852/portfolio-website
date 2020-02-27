@@ -1,1 +1,43 @@
-
+.xsH1
+{
+    font-size:32px;
+}
+.mdH1
+{
+    font-size:36px;
+}
+.lgH1
+{
+    font-size:40px;
+}
+h1
+{
+    text-align:center;
+}
+.xsH2
+{
+    font-size:24px;
+}
+.mdH2
+{
+    font-size:28px;
+}
+.lgH2
+{
+    font-size:32px;
+}
+.xsPara
+{
+    font-size:14px;
+    color:black;
+}
+.mdPara
+{
+    font-size:16px;
+    color:gray;
+}
+.lgPara
+{
+    font-size:18px;
+    color:blue;
+}
