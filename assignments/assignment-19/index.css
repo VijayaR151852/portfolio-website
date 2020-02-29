@@ -2,10 +2,11 @@ h1
 {
     text-align:center;
 }
-.text_align{
+.PricingContentAlign
+{
     text-align:center;
 }
-.buttonWidth
+.CardbuttonWidth
 {
     width:90%;
 }
@@ -25,10 +26,6 @@ img
 h2{
     font-weight:normal;
 }
-.blockSpace
-{
-    margin-top:20px;
-}
 .bootstrapicon
 {
     border-radius:5px;
@@ -41,16 +38,16 @@ h2{
     background-color:purple;
     font-size:24px;
 }
-.cIcon
-{
-    border-radius:50%;
-    border:2px solid black;
-}
-.alignRight
+.headerAlignment
 {
     text-align:right;
 }
 ul
 {
     list-style-type:none;
+}
+.headerList
+{
+    display:inline-block;
+    margin-right:20px;
 }

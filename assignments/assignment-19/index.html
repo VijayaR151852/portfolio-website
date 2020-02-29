@@ -12,98 +12,135 @@
 </head>
 
 <body>
-  <div class="card text-center  shadow p-3 mb-5 bg-white rounded d-lg-none">
-    <div class="card-body">
-      <h5 class="card-title">Company name</h5>
-      <p class="card-text">Features &nbsp; Enterprise &nbsp; Support &nbsp; Pricing</p>
-      <button class="btn btn-outline-primary">Sign up</button>
-    </div>
-  </div>
-  <div class="card shadow p-3 mb-5 bg-white rounded d-none d-lg-block">
-    <div class="row">
-      <div class="col-7">
-        <h5>Company name</h5>
-      </div>
-      <div class="col-5 alignRight">
-        <p><span>Features &nbsp; Enterprise &nbsp; Support &nbsp; Pricing &nbsp;&nbsp;</span><span><button class="btn btn-outline-primary">Sign up</button></span></p>
-      </div>
-    </div>
-  </div>
-  <div class="container blockSpace">
-    <div class="row">
-      <div class="col-12">
-        <h1>Pricing</h1>
-        <p class="text_align">Quickly build an effective pricing table for your potential customers with this Bootstrap example.It's built with default Bootstrap components and utilities with little customization.</p>
+  <header>
+    <div class="card text-center  shadow p-3 mb-5 bg-white rounded d-lg-none">
+      <div class="card-body">
+        <h5 class="card-title">Company name</h5>
+        <nav>
+          <ul>
+            <li class="headerList">Features</li>
+            <li class="headerList">Enterprise</li>
+            <li class="headerList">Support</li>
+            <li class="headerList">Pricing</li>
+          </ul>
+        </nav>
+        <button class="btn btn-outline-primary">Sign up</button>
       </div>
     </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-md-6 col-lg-4 spaceBetweenCards">
-        <div class="card text-center ">
-          <div class="card-header">
-            Free
-          </div>
-          <div class="card-body">
-            <ul>
-              <li><h2 class="card-title">$0 / <span class="opacity">mo</span></h2></li>
-              <li>10 users included</li>
-              <li>2 GB of storage</li>
-              <li>Email support</li>
-              <li>Help center access</li>
-            </ul>
-            <a href="#" class="btn btn-outline-primary buttonWidth">Sign up for free</a>
-          </div>
+  </header>
+  <header>
+    <div class="card shadow p-3 mb-5 bg-white rounded d-none d-lg-block">
+      <div class="row">
+        <div class="col-5">
+          <h5>Company name</h5>
         </div>
-      </div>
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="card text-center">
-          <div class="card-header">
-            Pro
-          </div>
-          <div class="card-body">
+        <div class="col-7 headerAlignment">
+          <nav>
             <ul>
-              <li><h2 class="card-title">$15 / <span class="opacity">mo</span></h2></li>
-              <li>20 users included</li>
-              <li>10 GB of storage</li>
-              <li>Priority email support</li>
-              <li>Help center access</li>
+              <li class="headerList">Features</li>
+              <li class="headerList">Enterprise</li>
+              <li class="headerList">Support</li>
+              <li class="headerList">Pricing</li>
+              <li class="headerList"><button class="btn btn-outline-primary">Sign up</button></li>
             </ul>
-            <a href="#" class="btn btn-primary buttonWidth">Get started</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-lg-4">
-        <div class="card text-center">
-          <div class="card-header">
-            Enterprise
-          </div>
-          <div class="card-body">
-            <ul>
-              <li><h2 class="card-title">$29 / <span class="opacity">mo</span></h2></li>
-              <li>30 users included</li>
-              <li>15 GB of storage</li>
-              <li>Phone and email support</li>
-              <li>Help center access</li>
-            </ul>
-            <a href="#" class="btn btn-primary buttonWidth">Contact us</a>
-          </div>
+          </nav>
         </div>
       </div>
     </div>
-    <hr>
+  </header>
+  <section>
+    <div class="container blockSpace">
+      <div class="row">
+        <div class="col-12">
+          <h1>Pricing</h1>
+          <p class="PricingContentAlign">Quickly build an effective pricing table for your potential customers with this Bootstrap example.It's built with default Bootstrap components and utilities with little customization.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 spaceBetweenCards">
+          <div class="card text-center ">
+            <div class="card-header">
+              Free
+            </div>
+            <div class="card-body">
+              <ul>
+                <li>
+                  <h2 class="card-title">$0 / <span class="opacity">mo</span></h2>
+                </li>
+                <li>10 users included</li>
+                <li>2 GB of storage</li>
+                <li>Email support</li>
+                <li>Help center access</li>
+              </ul>
+              <a href="#" class="btn btn-outline-primary CardbuttonWidth">Sign up for free</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card text-center">
+            <div class="card-header">
+              Pro
+            </div>
+            <div class="card-body">
+              <ul>
+                <li>
+                  <h2 class="card-title">$15 / <span class="opacity">mo</span></h2>
+                </li>
+                <li>20 users included</li>
+                <li>10 GB of storage</li>
+                <li>Priority email support</li>
+                <li>Help center access</li>
+              </ul>
+              <a href="#" class="btn btn-primary CardbuttonWidth">Get started</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="card text-center">
+            <div class="card-header">
+              Enterprise
+            </div>
+            <div class="card-body">
+              <ul>
+                <li>
+                  <h2 class="card-title">$29 / <span class="opacity">mo</span></h2>
+                </li>
+                <li>30 users included</li>
+                <li>15 GB of storage</li>
+                <li>Phone and email support</li>
+                <li>Help center access</li>
+              </ul>
+              <a href="#" class="btn btn-primary CardbuttonWidth">Contact us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <footer>
     <div class="container">
       <div class="row">
         <div class="col-12 col-lg-3">
           <!--<img src="../../static/Social Icons/facebook.svg" alt="icons">-->
           <ul>
-            <li><h3 class="bootstrapicon">B</h3></li>
-            <li><p class="opacity">@2017-2018</p></li>
+            <li>
+              <h3 class="bootstrapicon">B</h3>
+            </li>
+            <li>
+              <p class="opacity">@2017-2018</p>
+            </li>
           </ul>
         </div>
         <div class="col-6 col-lg-3">
           <ul>
-            <li><h5>Features</h5></li>
+            <li>
+              <h5>Features</h5>
+            </li>
             <li class="opacity">Cool stuff</li>
             <li class="opacity">Random feature</li>
             <li class="opacity">Team feature</li>
@@ -114,7 +151,9 @@
         </div>
         <div class="col-6 col-lg-3">
           <ul>
-            <li><h5>Resources</h5></li>
+            <li>
+              <h5>Resources</h5>
+            </li>
             <li class="opacity">Resource name</li>
             <li class="opacity">Another Resources</li>
             <li class="opacity">Final resources</li>
@@ -122,7 +161,9 @@
         </div>
         <div class="col-6 col-lg-3">
           <ul>
-            <li><h5>About</h5></li>
+            <li>
+              <h5>About</h5>
+            </li>
             <li class="opacity">Team</li>
             <li class="opacity">Locations</li>
             <li class="opacity"> Privacy</li>
@@ -131,6 +172,7 @@
         </div>
       </div>
     </div>
+  </footer>
   </div>
 </body>
 
