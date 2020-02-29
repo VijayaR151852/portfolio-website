@@ -8,6 +8,7 @@ h1
 }
 .CardbuttonWidth
 {
+    margin-top:10px;
     width:90%;
 }
 .spaceBetweenCards
@@ -42,7 +43,7 @@ h2{
 {
     text-align:right;
 }
-ul
+li
 {
     list-style-type:none;
 }
@@ -51,7 +52,4 @@ ul
     display:inline-block;
     margin-right:20px;
 }
-.Cardslist
-{
-    margin-left:-40px;
-}
+
