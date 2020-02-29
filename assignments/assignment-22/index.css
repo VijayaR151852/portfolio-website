@@ -1,0 +1,34 @@
+body
+{
+    background-color:ghostwhite;
+}
+.HeadingAlign
+{
+    text-align:center;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.cardListItems
+{
+    font-size:15px;
+    margin-top:30px;
+    list-style-type:none;
+    margin-bottom:30px;
+}
+.cardTextSize
+{
+    font-size:15px;
+}
+img
+{
+    height:60px;
+    width:60px;
+}
+h5
+{
+    margin-bottom:30px;
+}
+.buttonAlign
+{
+    text-align:center;
+}
