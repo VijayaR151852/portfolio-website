@@ -10,15 +10,15 @@ body
 }
 .cardListItems
 {
-    font-size:15px;
+    /*font-size:15px;*/
     margin-top:30px;
     list-style-type:none;
     margin-bottom:30px;
 }
-.cardTextSize
+/*.cardTextSize
 {
     font-size:15px;
-}
+}*/
 img
 {
     height:60px;
