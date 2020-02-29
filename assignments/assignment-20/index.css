@@ -59,11 +59,11 @@
 }
 .weatherspace
 {
-    margin-top:40px;
+    margin-top:30px;
 }
 .changeLocation
 {
-    margin-top: 40px;
+    margin-top:30px;
     color:white;
     font-weight:bold;
     background-image:linear-gradient(#72edf2,#5151e5);
@@ -90,7 +90,7 @@
 {
     height:60px;
     width:60px;
-    margin-top:80px;
+    margin-top:90px;
 }
 .locationImg
 {
@@ -100,5 +100,5 @@
 .temp
 {
     font-weight:bold;
-    font-size:15px;
+    font-size:13px;
 }
