@@ -24,7 +24,7 @@ li{
 }
 .LandingPageSectionContentMobile
 {
-    margin-top:40px;
+    margin-top:30px;
     margin-bottom:30px;
 }
 .LandingImgMobile
@@ -35,8 +35,7 @@ li{
 .LandingImgDesktop
 {
     margin-top:40px;
-    height:400px;
-    width:500px;
+   width:100%;
 }
 .LandingPageSectionHeadDesktop
 {
@@ -57,4 +56,42 @@ li{
     margin-top:50px;
     width:100%;
     margin-bottom:50px;
+}
+.CardsSpacingMobile
+{
+    margin-top:30px;
+    margin-bottom:20px;
+}
+.imagesWidth
+{
+    width:100%;
+}
+.CardsSpacingHeadDesktop
+{
+    margin-top:40px;
+    margin-bottom:30px;
+}
+.CardsSpacingContentDesktop
+{
+    margin-top:30px;
+    margin-bottom:100px;
+}
+.takeActionHeadDesktop
+{
+    margin-top:140px;
+}
+.takeActionDesktopContent
+{
+    margin-top:30px;
+    margin-bottom:140px;
+}
+.takeActionDesktopImg
+{
+    margin-top:140px;
+    margin-bottom:140px;
+}
+.GmailLogo
+{
+    height: 60px;
+    width:30px;
 }
