@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Spartan&display=swap');
+.gmailImg
+{
+    height:30px;
+    width:40px;
+}
+.gmailText
+{
+    opacity:0.7;
+}
+.signinAlign
+{
+    text-align:right;
+}
+li{
+    list-style-type:none;
+    display:inline-block;
+    margin-right:15px;
+    opacity:0.7;
+}
+.LandingPageSection
+{
+    background-color:ghostwhite;
+}
+.LandingPageSectionContentMobile
+{
+    margin-top:40px;
+    margin-bottom:30px;
+}
+.LandingImgMobile
+{
+    height:400px;
+    width:400px;
+}
+.LandingImgDesktop
+{
+    margin-top:40px;
+    height:400px;
+    width:500px;
+}
+.LandingPageSectionHeadDesktop
+{
+    margin-top:70px;
+    margin-bottom:30px;
+}
+.LandingPageSectionContentDesktop
+{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.playstoreImg{
+    height:50px;
+    width:170px;
+}
+.experienceImg
+{
+    margin-top:50px;
+    width:100%;
+    margin-bottom:50px;
+}
