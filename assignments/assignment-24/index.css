@@ -1,1 +1,27 @@
-
+ul
+{
+    list-style-type:none;
+}
+.navOpacity
+{
+        opacity:0.6;
+}
+.navDisplay
+{
+    display:inline-block;
+}
+.navListItemsSpacing
+{
+    margin-right:15px;
+}
+.navTopicsSection
+{
+    border-bottom:4px solid dodgerblue;
+}
+.topicsSec
+{
+    margin-top:0px;
+    padding-top:30px;
+    background-color:lavender;
+    padding-bottom:30px;
+}
