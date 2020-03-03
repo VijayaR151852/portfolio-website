@@ -17,6 +17,7 @@ li{
     display:inline-block;
     margin-right:15px;
     opacity:0.7;
+    margin-bottom:20px;
 }
 .LandingPageSection
 {
@@ -93,4 +94,20 @@ li{
 {
     height:60px;
     width:80px;
+}
+.footerGoogle
+{
+    margin-top:30px;
+    opacity:0.6;
+    font-size:30px;
+    margin-bottom:30px;
+}
+.footerContentOpacity
+{
+    opacity: 0.6;
+}
+.dropdownStyle
+{
+    margin-top:100px;
+    
 }
