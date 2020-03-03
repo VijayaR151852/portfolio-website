@@ -13,46 +13,107 @@
 
 <body>
   <header>
-
+    <div class="container-fluid signUpSec">
+      <div class="row">
+        <div class="col-6">
+          <img src="assets/github-logo.svg" alt="github" class="githubLogo mt-3 mb-3">
+        </div>
+        <div class="col-6">
+          <button class="btn-sm btn-outline-light mt-3 mb-3 float-right">Sign up</button>
+        </div>
+      </div>
+    </div>
   </header>
+  <nav>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 text-center d-md-none">
+          <ul class="mb-0 mt-4">
+            <li class="navOpacity">
+              <h5>Explore</h5>
+            </li>
+            <li class="d-none d-md-inline-block navDisplay navListItemsSpacing navOpacity">Explore</li>
+            <li class="navDisplay navTopicsSection navListItemsSpacing pb-3">Topics</li>
+            <li class="navOpacity navDisplay navListItemsSpacing">Trending </li>
+            <li class="navOpacity navDisplay navListItemsSpacing">Collections</li>
+            <li class="navOpacity  navListItemsSpacing navDisplay">Events</li>
+          </ul>
+        </div>
+        <div class="col-12 d-none d-md-flex">
+          <ul class="mb-0 mt-4">
+            <li class="navDisplay navListItemsSpacing navOpacity">Explore</li>
+            <li class="navDisplay navTopicsSection navListItemsSpacing pb-3">Topics</li>
+            <li class="navOpacity navDisplay navListItemsSpacing">Trending </li>
+            <li class="navOpacity navDisplay navListItemsSpacing">Collections</li>
+            <li class="navOpacity  navListItemsSpacing navDisplay">Events</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
   <section>
-    <nav>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12 text-center">
-              <ul class="mb-0">
-                <li class="navOpacity d-md-none ">
-                  <h5>Explore</h5>
-                </li>
-                <li class="d-none d-md-inline-block navDisplay navListItemsSpacing navOpacity">Explore</li>
-                <li class="navDisplay navTopicsSection navListItemsSpacing pb-3">Topics</li>
-                <li class="navOpacity navDisplay navListItemsSpacing">Trending </li>
-                <li class="navOpacity navDisplay navListItemsSpacing">Collections</li>
-                <li class="navOpacity  navListItemsSpacing navDisplay">Events</li>
-              </ul>
+    <div class="container-fluid mb-4">
+      <div class="row">
+        <div class="col-12 topicsSec text-center">
+          <h2>Topics</h2>
+          <h6 class="navOpacity">Browse popular topics on GitHub</h6>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card text-center mt-4 mb-4 h-100">
+            <div class="card-body">
+              <img src="assets/opengl.png" alt="opengl" class="cardImg">
+              <h5 class="mt-4">OpenGL</h5>
+              <p class="navOpacity">OpenGL is a software interface that allows aprogrammer to communicate with graphics hardware.</p>
             </div>
           </div>
-          <div class="col-12 d-none d-xl-flex">
-              <ul class="mb-0">
-                <li class="navOpacity d-md-none ">
-                  <h5>Explore</h5>
-                </li>
-                <li class="d-none d-md-inline-block navDisplay navListItemsSpacing navOpacity">Explore</li>
-                <li class="navDisplay navTopicsSection navListItemsSpacing pb-3">Topics</li>
-                <li class="navOpacity navDisplay navListItemsSpacing">Trending </li>
-                <li class="navOpacity navDisplay navListItemsSpacing">Collections</li>
-                <li class="navOpacity  navListItemsSpacing navDisplay">Events</li>
-              </ul>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card text-center mt-4 mb-4 h-100 ">
+            <div class="card-body">
+              <img src="assets/flask.png" alt="Flask" class="cardImg">
+              <h5 class="mt-4">Flask</h5>
+              <p class="navOpacity">Flask is a web framework for Python based on the werkzeug toolkit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card text-center mt-4 h-100 ">
+            <div class="card-body">
+              <img src="assets/gradle.png" alt="gradle" class="cardImg">
+              <h5 class="mt-4">Gradle</h5>
+              <p class="navOpacity">Gradle is open source build tool that helps teams build,automate and deliver better software,faster.</p>
             </div>
           </div>
         </div>
       </div>
-    </nav>
-    <div class="container-fluid">
+    </div>
+  </section>
+  <section>
+    <div class="container">
       <div class="row">
-        <div class="col-12 topicsSec text-center">
-          <h2>Topics</h2>
-          <h5 class="navOpacity">Browse popular topics on GitHub</h5>
+        <div class="col-12 mt-3">
+          <h3>All featured topics</h3>
+        </div>
+        <div class="col-12 col-xl-8">
+          <div class="row">
+            <div class="col-2">
+              <div class="hashBox text-center pt-2 m-auto">#</div>
+            </div>
+            <div class="col-10 col-md-8">
+              <h5>3D</h5>
+              <p class="featuredTopicsContent mb-0">3D modelling is the process of virtually developing the surface and structure of a 3D object </p>
+              <button class="btn-sm btn-light star d-md-none"><img src="assets/star.svg" alt="star">Star</button>
+            </div>
+            <div class="col-md-2 d-none d-md-block">
+              <button class="btn btn-light star"><img src="assets/star.svg" alt="star">Star</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>

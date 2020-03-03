@@ -20,8 +20,35 @@ ul
 }
 .topicsSec
 {
-    margin-top:0px;
-    padding-top:30px;
+    padding-top:40px;
     background-color:lavender;
-    padding-bottom:30px;
+    padding-bottom:40px;
+}
+.signUpSec
+{
+    background-color:black;
+}
+.githubLogo
+{
+    background-color:white;
+}
+.cardImg
+{
+    height:80px;
+    width:80px;
+}
+.hashBox
+{
+    height:60px;
+    width:60px;
+    background-color:aliceblue;
+}
+.featuredTopicsContent
+{
+    opacity:0.5;
+    font-size:15px;
+}
+.star
+{
+  font-size:15px;
 }
