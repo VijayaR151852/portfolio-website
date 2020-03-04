@@ -46,9 +46,16 @@ ul
 .featuredTopicsContent
 {
     opacity:0.5;
-    font-size:15px;
+    font-size:14px;
 }
 .star
 {
-  font-size:15px;
+  font-size:13px;
+  font-weight:bold;
+  border:1px solid silver;
+}
+.featuredTopicsImg
+{
+    height:60px;
+    width:60px;
 }
