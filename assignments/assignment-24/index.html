@@ -13,13 +13,57 @@
 
 <body>
   <header>
-    <div class="container-fluid signUpSec">
+    <div class="container-fluid signUpSec d-xl-none">
       <div class="row">
         <div class="col-6">
           <img src="assets/github-logo.svg" alt="github" class="githubLogo mt-3 mb-3">
         </div>
-        <div class="col-6">
-          <button class="btn-sm btn-outline-light mt-3 mb-3 float-right">Sign up</button>
+        <div class="col-6 text-right">
+          <button class="btn-sm btn-outline-light mt-3 mb-3">Sign up</button>
+          <nav class="navbar navbar-dark navDisplay">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid signUpSec d-none d-xl-block text-center">
+      <div class="row">
+        <div class="col-12">
+          <li class="navDisplay mr-2"><img src="assets/github-logo.svg" alt="github" class="githubLogo mt-3 mb-3"></li>
+          <li class="navDisplay mr-2">
+            <div class="dropdown">
+              <button class="btn  dropdown-toggle dropdown navBartext" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Why GitHub?</button>
+            </div>
+          </li>
+          <li class="navDisplay mr-2 navBartext">
+            Enterprise
+          </li>
+          <li class="navDisplay mr-2">
+            <div class="dropdown">
+              <button class="btn  dropdown-toggle dropdown navBartext" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Explore</button>
+            </div>
+          </li>
+          <li class="navDisplay navBartext mr-2">
+            MarketPlace
+          </li>
+          <li class="navDisplay mr-4">
+            <div class="dropdown">
+              <button class="btn  dropdown-toggle dropdown navBartext" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pricing</button>
+            </div>
+          </li>
+          <li class="navDisplay mr-2">
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            </form>
+          </li>
+          <li class="navDisplay mr-2 navBartext">
+            Sign in
+          </li>
+          <li class="navDisplay">
+            <button class="btn btn-outline-light mt-3 mb-3">Sign up</button>
+          </li>
         </div>
       </div>
     </div>
