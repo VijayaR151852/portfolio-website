@@ -59,3 +59,11 @@ ul
     height:60px;
     width:60px;
 }
+.popularTopics
+{
+    background-color:aliceblue;
+    color:dodgerblue;
+    font-size:13px;
+    list-style-type:none;
+    display:inline-block;
+}
