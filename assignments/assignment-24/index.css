@@ -29,7 +29,7 @@
 }
 
 .githubLogo {
-    background-color: white;
+    -webkit-filter:invert(100%);
 }
 
 .cardImg {
