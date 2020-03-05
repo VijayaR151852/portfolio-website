@@ -1,73 +1,87 @@
-ul
-{
-    list-style-type:none;
+.navBarList{
+    list-style-type: none;
 }
-.navOpacity
-{
-        opacity:0.6;
+
+.navOpacity {
+    opacity: 0.6;
 }
-.navDisplay
-{
-    display:inline-block;
+
+.navDisplay {
+    display: inline-block;
 }
-.navListItemsSpacing
-{
-    margin-right:15px;
+
+.navListItemsSpacing {
+    margin-right: 15px;
 }
-.navTopicsSection
-{
-    border-bottom:4px solid dodgerblue;
+
+.navTopicsSection {
+    border-bottom: 4px solid dodgerblue;
 }
-.topicsSec
-{
-    padding-top:40px;
-    background-color:lavender;
-    padding-bottom:40px;
+
+.topicsSec {
+    padding-top: 40px;
+    background-color: lavender;
+    padding-bottom: 40px;
 }
-.signUpSec
-{
-    background-color:black;
+
+.signUpSec {
+    background-color: black;
 }
-.githubLogo
-{
-    background-color:white;
+
+.githubLogo {
+    background-color: white;
 }
-.cardImg
-{
-    height:80px;
-    width:80px;
+
+.cardImg {
+    height: 80px;
+    width: 80px;
 }
-.hashBox
-{
-    height:60px;
-    width:60px;
-    background-color:aliceblue;
+
+.hashBox {
+    height: 50px;
+    width: 50px;
+    background-color: aliceblue;
 }
-.featuredTopicsContent
-{
-    opacity:0.5;
-    font-size:14px;
+
+.featuredTopicsContent {
+    opacity: 0.5;
+    font-size: 14px;
 }
-.star
-{
-  font-size:13px;
-  font-weight:bold;
-  border:1px solid silver;
+
+.star {
+    font-size: 13px;
+    font-weight: bold;
+    border: 1px solid silver;
 }
-.featuredTopicsImg
-{
-    height:60px;
-    width:60px;
+
+.featuredTopicsImg {
+    height: 50px;
+    width: 50px;
 }
-.popularTopics
+
+.popularTopics {
+    background-color: aliceblue;
+    color: dodgerblue;
+    font-size: 13px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.navBarText {
+    color: white;
+}
+.loadmoreButton
 {
-    background-color:aliceblue;
+    border:1px solid silver;
+}
+.loadmoreButtonContent
+{
     color:dodgerblue;
-    font-size:13px;
-    list-style-type:none;
-    display:inline-block;
+    font-weight:bold;
+    font-size:15px;
+    opacity:0.8;
 }
-.navBartext
-{
-    color:white;
-}
+/***/
+/*{*/
+/*    border:2px solid red;*/
+/*}*/
