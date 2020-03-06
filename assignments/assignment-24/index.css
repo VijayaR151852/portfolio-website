@@ -29,14 +29,13 @@
 }
 
 .githubLogo {
-    filter:invert(75%);
+     filter:invert(75%);
 }
 
 .cardImg {
     height: 80px;
     width: 80px;
 }
-
 .hashBox {
     height: 50px;
     width: 50px;
