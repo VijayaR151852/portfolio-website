@@ -1,49 +1,52 @@
-.bIcon
-{
-    height:25px;
+.bIcon {
+    height: 25px;
 }
-li{
-    list-style-type:none;
-    display:inline-block;
+
+li {
+    list-style-type: none;
+    display: inline-block;
 }
-.title
-{
-    font-weight:bold;
+
+.xlBackgroundImgContent {
+     font-size:20px;   
 }
-.backgroundImg
-{
-    background-image:url(assets/background.jpg);
-    width:100%;
-    padding-bottom:25%;
-    padding-top:25%;
-    background-image:contain;
+.title {
+    font-weight: bold;
 }
-.profile_thumbnailImg
-{
-    height:80px;
-    border-radius:30px;
+
+.backgroundImg {
+    background-image: url(assets/background.jpg);
+    width: 100%;
+    padding-bottom: 25%;
+    padding-top: 25%;
+    background-image: contain;
 }
-.backgroundImgContent
-{
-    color:white;
+
+.profile_thumbnailImg {
+    height: 80px;
+    border-radius: 30px;
 }
-.Context
-{
-    font-size:11px;
+
+.backgroundImgContent {
+    color: white;
 }
-.ContextSubHead
-{
-    opacity:0.5;
+
+.Context {
+    font-size: 11px;
 }
-.imagesContainer
-{
-    background-color:whitesmoke;
+
+.ContextSubHead {
+    opacity: 0.5;
 }
-.cardImages
-{
-    width:100%;
+
+.imagesContainer {
+    background-color: whitesmoke;
 }
-.socialIcons
-{
-    height:25px;
+
+.cardImages {
+    width: 100%;
+}
+
+.socialIcons {
+    height: 25px;
 }
