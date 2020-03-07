@@ -29,5 +29,21 @@ li{
 }
 .Context
 {
-    font-size:15px;
+    font-size:11px;
+}
+.ContextSubHead
+{
+    opacity:0.5;
+}
+.imagesContainer
+{
+    background-color:whitesmoke;
+}
+.cardImages
+{
+    width:100%;
+}
+.socialIcons
+{
+    height:25px;
 }
