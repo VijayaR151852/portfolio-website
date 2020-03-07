@@ -1,0 +1,33 @@
+.bIcon
+{
+    height:25px;
+}
+li{
+    list-style-type:none;
+    display:inline-block;
+}
+.title
+{
+    font-weight:bold;
+}
+.backgroundImg
+{
+    background-image:url(assets/background.jpg);
+    width:100%;
+    padding-bottom:25%;
+    padding-top:25%;
+    background-image:contain;
+}
+.profile_thumbnailImg
+{
+    height:80px;
+    border-radius:30px;
+}
+.backgroundImgContent
+{
+    color:white;
+}
+.Context
+{
+    font-size:15px;
+}
