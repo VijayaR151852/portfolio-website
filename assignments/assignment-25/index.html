@@ -10,19 +10,22 @@
   <script src="../../bootstrap/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="index.css" />
 </head>
+
 <body>
   <header>
-    <div class="container">
-      <div class="row">
-        <div class="col-6 mt-4 mb-2">
-          <ul class="p-0">
-            <li class="mr-1"><img src="assets/b-icon.jpg" alt="b-icon" class="bIcon"></li>
-            <li class="title">Website Title</li>
-          </ul>
-        </div>
-        <div class="col-6 mt-4 mb-2 text-right">
-          <li class="mr-2"><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+    <div class="imagesContainer">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 mt-4 mb-2">
+            <ul class="p-0">
+              <li class="mr-1"><img src="assets/b-icon.jpg" alt="b-icon" class="bIcon"></li>
+              <li class="title">Website Title</li>
+            </ul>
+          </div>
+          <div class="col-6 mt-4 mb-2 text-right">
+            <li class="mr-2"><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </div>
         </div>
       </div>
     </div>
@@ -31,18 +34,26 @@
     <div class="container-fluid">
       <div class="row d-lg-none">
         <div class="col-12 backgroundImg text-center">
-          <img src="assets/profile-thumbnail.png" alt="profile_thumbnail" class="profile_thumbnailImg">
-          <h5 class="mt-4 backgroundImgContent">Spatial</h5>
-          <p class="backgroundImgContent Context mt-2">Lorem ipsum dolor sit amet nollem consequat<br>interdum vivavus ggvhdf yydyfghsds  dcbdg</p>
-          <button class="btn-sm btn-primary">ContactUs</button>
+          <div class="row">
+            <div class="col-12 backgroundGradient">
+              <img src="assets/profile-thumbnail.png" alt="profile_thumbnail" class="profile_thumbnailImg">
+              <h5 class="mt-4 backgroundImgContent">Spatial</h5>
+              <p class="backgroundImgContent context mt-2">Lorem ipsum dolor sit amet nollem consequat<br>interdum vivavus ggvhdf yydyfghsds dcbdg</p>
+              <button class="btn-sm btn-primary">ContactUs</button>
+            </div>
+          </div>
         </div>
       </div>
       <div class="row d-none d-lg-block">
-        <div class="col-12 backgroundImg text-center">
-          <img src="assets/profile-thumbnail.png" alt="profile_thumbnail" class="profile_thumbnailImg">
-          <h3 class="mt-4 backgroundImgContent">Spatial</h3>
-          <p class="xlBackgroundImgContent backgroundImgContent mt-2">Lorem ipsum dolor sit amet nollem consequat<br>interdum vivavus ggvhdf yydyfghsds  dcbdg</p>
-          <button class="btn-sm btn-primary">ContactUs</button>
+        <div class="col-12 text-center backgroundImg">
+          <div class="row">
+            <div class="col-12 backgroundGradient">
+              <img src="assets/profile-thumbnail.png" alt="profile_thumbnail" class="profile_thumbnailImg">
+              <h3 class="mt-4 backgroundImgContent">Spatial</h3>
+              <p class="xlBackgroundImgContent backgroundImgContent mt-2">Lorem ipsum dolor sit amet nollem consequat<br>interdum vivavus ggvhdf yydyfghsds dcbdg</p>
+              <button class="btn-sm btn-primary">ContactUs</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -52,24 +63,15 @@
       <div class="row">
         <div class="col-12 col-md-6">
           <h4 class="mt-4">Maecenas luctus lectus</h4>
-          <p class="Context ContextSubHead">perspiciatis dolorenque recusandae dolor</p>
-          <p class="mt-4 Context mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-          sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-          magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-          quis nostrud exerci tation ullamcorper suscipit lobortis nisl
-          ut aliquip ex ea commodo consequat.</p>
+          <p class="context contextSubHead">perspiciatis dolorenque recusandae dolor</p>
+          <p class="mt-4 context mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
+            ex ea commodo consequat.</p>
         </div>
         <div class="col-12 col-md-6">
-          <p class="mt-4 Context">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-          sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-          magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-          quis nostrud exerci tation ullamcorper suscipit lobortis nisl
-          ut aliquip ex ea commodo consequat.</p>
-          <p class="mt-4 Context">Dolorum autem vel eum iriure
-          dolor in hendrerit in vulputate velit esse molestie consequat,
-          vel illum dolore eu feugiat nulla facilisis at vero eros et
-          accumsan et iusto odio dignissim qui blandit praesent luptatum
-          zzril delenit augue duis dolore te feugait nulla facilisi.
+          <p class="mt-4 context">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
+            ex ea commodo consequat.</p>
+          <p class="mt-4 context">Dolorum autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore
+            te feugait nulla facilisi.
           </p>
         </div>
       </div>
@@ -80,8 +82,8 @@
       <div class="container">
         <div class="row mt-4 mb-4">
           <div class="col-12 text-center">
-              <h5 class="mt-4">Fusce ultrices fringilla</h5>
-              <p class="Context mb-4">Maecenas vitae tellus feugiat eleifend</p>
+            <h5 class="mt-4">Fusce ultrices fringilla</h5>
+            <p class="context mb-4">Maecenas vitae tellus feugiat eleifend</p>
           </div>
           <div class="col-12 col-md-6 mt-2">
             <div class="card">
@@ -104,7 +106,7 @@
             <button class="btn-sm btn-secondary">Sedvulputate</button>
           </div>
         </div>
-      </div>  
+      </div>
     </div>
   </section>
   <section>
@@ -112,7 +114,7 @@
       <div class="row mb-4">
         <div class="col-12 text-center ">
           <h5 class="mt-4">Fusce ultrices fringilla</h5>
-          <p class="Context mb-4">Maecenas vitae tellus feugiat eleifend</p>
+          <p class="context mb-4">Maecenas vitae tellus feugiat eleifend</p>
         </div>
         <div class="col-12 col-md-6 mb-2">
           <img src="assets/card-image-2.jpg" alt="nature" class="cardImages h-100">
@@ -151,5 +153,4 @@
     </div>
   </footer>
 </body>
-
 </html>

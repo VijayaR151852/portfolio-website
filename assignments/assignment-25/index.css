@@ -17,8 +17,6 @@ li {
 .backgroundImg {
     background-image: url(assets/background.jpg);
     width: 100%;
-    padding-bottom: 25%;
-    padding-top: 25%;
     background-image: contain;
 }
 
@@ -30,12 +28,17 @@ li {
 .backgroundImgContent {
     color: white;
 }
-
-.Context {
+.backgroundGradient
+{
+    padding-top:25%;
+    padding-bottom:25%;
+    background-color:#00000050;
+}
+.context {
     font-size: 11px;
 }
 
-.ContextSubHead {
+.contextSubHead {
     opacity: 0.5;
 }
 
