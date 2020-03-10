@@ -1,10 +1,73 @@
 .headerBackground
 {
     background-image:url(../bg3.jpg);
-    min-height:50vh;
+    min-height:10vh;
     background-size:cover;
 }
 .headerContent
 {
     color:white;
+}
+.imagesWidth
+{
+    width:100%;
+    border-radius:50%;
+}
+.headerContext
+{
+    font-size:24px;
+    color:white;
+}
+.heading
+{
+    font-weight:normal;
+}
+.headingBorder
+{
+    border-bottom:2px solid dodgerblue;
+}
+.aboutmeContext
+{
+    opacity:0.6;
+    font-size:15px;
+}
+.cardHeading
+{
+    color:dodgerblue;
+}
+.block
+{
+    background-color:dodgerblue;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+.descriptionBlock
+{ 
+    background-color:whitesmoke;
+    margin-bottom:15px;
+    margin-top:15px;
+}
+.angularArrow
+{
+    font-size:50px;
+}
+.skillsImg
+{
+    height:60px;
+}
+.skillsContext
+{
+    font-weight:bold;
+}
+.bootsrapIcon
+{
+    border-radius:10px;
+    display:inline-block;
+    padding:5px 0;
+    color:white;
+    width:60px;
+    text-align:center;
+    background-color:purple;
+    font-size:24px;
 }
