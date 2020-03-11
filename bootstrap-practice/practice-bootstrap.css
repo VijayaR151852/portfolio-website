@@ -168,34 +168,34 @@ p{
         background-color:pink;
     }
 }*/
-
+*
+{
+    font-size:0px;
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+.box
+{
+    height:200px;
+    border:7px dashed yellow;
+    display:inline-block;
+}
 @media (max-width:576px) {
-    .first {
-        width: 100%;
+    .box{
+        width:100%;
         background-color:blue;
-        height:200px;
-        border:7px dashed yellow;
     }
 }
-@media (min-width:768px) and (max-width:991px) {
-    .second {
-        width: 48%;
+@media (min-width:768px){
+    .box {
+        width:50%;
         background-color:green;
-        height:200px;
-        border:7px dashed yellow;
-        display:inline-block;
-        margin-bottom:0px;
-        padding-bottom:0px;
     }
 }
 @media (min-width:992px) {
-    .third {
-        width: 31%;
+    .box {
+        width: 33.333%;
         background-color:red;
-        height:200px;
-        border:7px dashed yellow;
-        display:inline-block;
-        margin-bottom:0px;
-        padding-bottom:0px;
     }
 }
