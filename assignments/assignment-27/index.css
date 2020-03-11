@@ -1,0 +1,24 @@
+@media (max-width:576px)
+{
+    .block
+    {
+        width:100%;
+    }
+}
+@media (min-width:768px)
+{
+    .block
+    {
+        width:50%;
+    }
+}
+.block
+{
+    margin:0px;
+    box-sizing:border-box;
+    display:inline-block;
+}
+body
+{
+    padding:15px;
+}
