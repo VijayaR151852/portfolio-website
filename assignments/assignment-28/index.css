@@ -1,0 +1,32 @@
+h1
+{
+    text-align:center;
+}
+.block
+{
+    display:inline-block;
+    box-sizing:border-box;
+    padding:15px;
+}
+@media (max-width:576px)
+{
+    .block
+    {
+        width:100%;
+    }
+    .block2
+    {
+        display:none;
+    }
+}
+@media (min-width:768px)
+{
+    .block
+    {
+        width:50%;
+    }
+    .blockDisplay
+    {
+        display:none;
+    }
+}
