@@ -29,4 +29,7 @@ h1
     {
         display:none;
     }
+    p{
+        opacity:0.6;
+    }
 }
