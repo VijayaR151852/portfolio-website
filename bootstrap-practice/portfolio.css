@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
 .headerBackground
 {
     background-image:url(../bg3.jpg);
@@ -75,4 +76,9 @@
 {
     height:80px;
     border-radius:10px;
+}
+.workContext
+{
+    font-family: "Kaushan Script", cursive;
+    font-size:24px;
 }

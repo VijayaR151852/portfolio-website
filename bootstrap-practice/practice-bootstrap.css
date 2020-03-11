@@ -1,4 +1,5 @@
-/*.rowpad
+/*@import url(another.css);
+.rowpad
 {
     margin-bottom:2%;
 }
@@ -124,12 +125,24 @@ p{
     border-radius:5px;
     padding:6px;
 }*/
-.style{
-    height:100px;
-    background-color:#ff9900;
-}
-.style1
+
+/*@media screen
 {
-    height:100px;
-    background-color:green;
+    body{
+        font-size:24px;
+    }
+}*/
+@media (min-width:990px)
+{
+    body
+    {
+        background-color:red;
+    }
+}
+@media (max-width:768px)
+{
+    body
+    {
+        background-color:blue;
+    }
 }
