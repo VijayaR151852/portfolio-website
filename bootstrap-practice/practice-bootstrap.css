@@ -167,7 +167,7 @@ p{
     {
         background-color:pink;
     }
-}*/
+}
 *
 {
     font-size:0px;
@@ -197,5 +197,31 @@ p{
     .box {
         width: 33.333%;
         background-color:red;
+    }
+}*/
+.visitWebsite
+{
+    background-color:blue;
+    border-radius:5px;
+    margin-bottom:17px;
+}
+.visitWebsiteContext
+{
+    color:white;
+    padding:10px;
+    font-size:18px;
+}
+@media (min-width:768px)
+{
+    .box
+    {
+        border:5px solid black;
+    }
+}
+@media (min-width:992px)
+{
+    .box
+    {
+        border:5px dashed black;
     }
 }
