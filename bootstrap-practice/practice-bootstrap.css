@@ -131,12 +131,20 @@ p{
     body{
         font-size:24px;
     }
-}*/
+}
 @media (max-width:767px)
 {
     body
     {
         background-color:orange;
+    }
+}
+
+@media (min-width:992px)
+{
+    body
+    {
+        background-color:green;
     }
 }
 @media (min-width:768px)
@@ -146,10 +154,48 @@ p{
         background-color:blue;
     }
 }
-@media (min-width:992px)
+@media only screen and (orientation:landscape)
 {
     body
     {
+        background:lightblue;
+    }
+}
+@media only screen and (orientation:portrait)
+{
+    body
+    {
+        background-color:pink;
+    }
+}*/
+
+@media (max-width:576px) {
+    .first {
+        width: 100%;
+        background-color:blue;
+        height:200px;
+        border:7px dashed yellow;
+    }
+}
+@media (min-width:768px) and (max-width:991px) {
+    .second {
+        width: 48%;
         background-color:green;
+        height:200px;
+        border:7px dashed yellow;
+        display:inline-block;
+        margin-bottom:0px;
+        padding-bottom:0px;
+    }
+}
+@media (min-width:992px) {
+    .third {
+        width: 31%;
+        background-color:red;
+        height:200px;
+        border:7px dashed yellow;
+        display:inline-block;
+        margin-bottom:0px;
+        padding-bottom:0px;
     }
 }
