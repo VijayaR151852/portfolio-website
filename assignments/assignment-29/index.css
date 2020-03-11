@@ -7,6 +7,7 @@ h1
     display:inline-block;
     box-sizing:border-box;
     padding:10px;
+    vertical-align:top;
 }
 @media (max-width:576px) {
     h1 {

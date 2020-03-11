@@ -17,6 +17,7 @@
     margin:0px;
     box-sizing:border-box;
     display:inline-block;
+    vertical-align:top;
 }
 body
 {
