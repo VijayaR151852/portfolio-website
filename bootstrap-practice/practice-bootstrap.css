@@ -132,17 +132,24 @@ p{
         font-size:24px;
     }
 }*/
-@media (min-width:990px)
+@media (max-width:767px)
 {
     body
     {
-        background-color:red;
+        background-color:orange;
     }
 }
-@media (max-width:768px)
+@media (min-width:768px)
 {
     body
     {
         background-color:blue;
+    }
+}
+@media (min-width:992px)
+{
+    body
+    {
+        background-color:green;
     }
 }
