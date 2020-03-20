@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+.headerBackground {
+    background-color: black;
+}
+
+.pageBackground {
+    background-image: url(background.jpg);
+    padding: 27% 0;
+    width: 100%;
+    background-size: cover;
+}
+
+.pageBackgroundContent {
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+}
+
+.pageBackgroundHeader {
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    color: white;
+}
+
+.socialIcons {
+    height: 40px;
+    border-radius: 10px;
+}
+
+.liDisplay {
+    display: inline-block;
+}
+
+li {
+    list-style-type:none;
+}

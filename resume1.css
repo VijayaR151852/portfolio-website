@@ -1,0 +1,23 @@
+.blockColor
+{
+    background-color:whitesmoke;
+}
+.skillsImg
+{
+    height:60px;
+}
+.skillsContext
+{
+    font-weight:bold;
+}
+.bootsrapIcon
+{
+    border-radius:10px;
+    display:inline-block;
+    padding:5px 0;
+    color:white;
+    width:60px;
+    text-align:center;
+    background-color:purple;
+    font-size:24px;
+}

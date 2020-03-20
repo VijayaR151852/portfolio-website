@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
 .headerBackground
 {
-    background-image:url(../bg3.jpg);
-    min-height:10vh;
+    background-image:url(../background.jpg);
     background-size:cover;
 }
 .headerContent
@@ -16,7 +15,7 @@
 }
 .headerContext
 {
-    font-size:24px;
+    font-size:30px;
     color:white;
 }
 .heading
@@ -74,11 +73,11 @@
 }
 .hobbiesImg
 {
-    height:80px;
+    height:90px;
     border-radius:10px;
 }
 .workContext
 {
-    font-family: "Kaushan Script", cursive;
+    font-family: "Dancing Script", cursive;
     font-size:24px;
 }
