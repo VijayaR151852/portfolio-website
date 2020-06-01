@@ -1,59 +1,70 @@
-li{
+li {
     display: inline-block;
-    list-style-type:none;
-    font-size:17px;
+    list-style-type: none;
+    font-size: 17px;
 }
-.headerLink{
+
+.headerLink {
     color: black;
-    opacity:0.6;
+    opacity: 0.6;
 }
-.logo
-{
-    height:40px;
-    width:40px;
+
+.logo {
+    height: 40px;
+    width: 40px;
     background-color: orange;
-    border-radius:50%;
-    padding:6px;
+    border-radius: 50%;
+    padding: 6px;
 }
-.logoheading{
-    display:inline-block;
+
+.logoheading {
+    display: inline-block;
 }
-.getStartButton
-{
-    background-color:orange;
-    color:white;
-    font-weight:bold;
+
+.getStartButton {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
 }
-.process{
+
+.blockBackGround {
     background-color: aliceblue;
-    border:none;
+    border: none;
 }
-.processImage{
-    background-color:white;
-    border-radius:50%;
-    text-align:center;
-    padding:15px;
+
+.processImage {
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    padding: 15px;
 }
-.bar{
-    height:3px;
-    width:40px;
-    background-color:orange;
-    text-align:center;
+
+.bar {
+    height: 3px;
+    width: 40px;
+    background-color: orange;
+    text-align: center;
+}
+
+.barMargin {
     margin: auto;
 }
-.ourTeamParaOpacity{
-    opacity:0.5;
+
+.opacity {
+    opacity: 0.5;
 }
-.ourTeamImg{
-    border-radius:15px;
+
+.ourTeamImg {
+    border-radius: 15px;
 }
-.boxSizing{
-    box-sizing: border-box;
-    padding-right:60px;
+
+.double_quote {
+    height: 20px;
 }
-.double_quote{
-    height:20px;
+
+.icons {
+    height: 30px;
 }
-.icons{
-    height:30px;
+.testimonialFont{
+    font-weight:bold;
 }
