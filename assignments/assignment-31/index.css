@@ -21,13 +21,13 @@ li {
     display: inline-block;
 }
 
-.getStartButton {
+.buttonStyle{
     background-color: orange;
     color: white;
     font-weight: bold;
 }
 .carImage{
-    height:200px;
+    height:250px;
     border-radius:10px;
 }
 .blockBackGround {
@@ -66,8 +66,20 @@ li {
 }
 
 .icons {
-    height: 25px;
+    height: 25px
 }
-.testimonialFont{
-    font-weight:bold;
+.handyProcessBlockPadding{
+    padding-bottom:90px;
+}
+.ourTeamBlockPadding{
+    padding-top:130px;
+    padding-bottom:100px;
+}
+.deliveryBlockPadding{
+    padding-top:40px;
+    padding-bottom:60px;
+}
+.footerPadding{
+    padding-bottom:20px;
+    padding-top:20px;
 }
