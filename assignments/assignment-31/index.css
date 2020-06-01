@@ -26,7 +26,9 @@ li {
     color: white;
     font-weight: bold;
 }
-
+.carImage{
+    height:200px;
+}
 .blockBackGround {
     background-color: aliceblue;
     border: none;
