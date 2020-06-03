@@ -7,6 +7,7 @@ li {
 .headerLink {
     color: black;
     opacity: 0.6;
+    font-size:15px;
 }
 
 .logo {
@@ -26,7 +27,7 @@ li {
 }
 
 .buttonStyle{
-    background-color: orange;
+    background-color:darkorange;
     color: white;
     font-weight: bold;
 }
