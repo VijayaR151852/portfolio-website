@@ -1,61 +1,61 @@
-@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&family=Kaushan+Script&display=swap');
 .headerBackground {
-    background-color: black;
+  background-color: black;
 }
 
 .pageBackground {
-    background-image: url(background.jpg);
-    padding: 27% 0;
-    width: 100%;
-    background-size: cover;
+  background-image: url(background.jpg);
+  padding: 27% 0;
+  width: 100%;
+  background-size: cover;
 }
-.skillsImg
-{
-    height:60px;
+
+.skillsImg {
+  height: 60px;
 }
+
 .pageBackgroundContent {
-    font-weight: bold;
-    color: white;
-    font-size: 24px;
+  font-weight: bold;
+  color: white;
+  font-size: 24px;
 }
 
 .pageBackgroundHeader {
-    font-family: 'Pacifico', cursive;
-    font-size: 40px;
-    color: white;
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+  color: white;
 }
 
 .socialIcons {
-    height: 40px;
-    border-radius: 10px;
+  height: 40px;
+  border-radius: 10px;
 }
 
 .liDisplay {
-    display: inline-block;
+  display: inline-block;
 }
 
 li {
-    list-style-type:none;
-}
-.skillsContext
-{
-    font-weight:bold;
-}
-.bootsrapIcon
-{
-    border-radius:10px;
-    display:inline-block;
-    padding:5px 0;
-    color:white;
-    width:60px;
-    text-align:center;
-    background-color:purple;
-    font-size:24px;
+  list-style-type: none;
 }
 
-body{
+.skillsContext {
+  font-weight: bold;
+}
+
+.bootsrapIcon {
+  border-radius: 10px;
+  display: inline-block;
+  padding: 5px 0;
+  color: white;
+  width: 60px;
+  text-align: center;
+  background-color: purple;
+  font-size: 24px;
+}
+
+body {
   margin: 0;
-  font-family: "Lato", sans-serif;
 }
 
 .sidebar {
@@ -74,14 +74,9 @@ body{
   padding: 16px;
   text-decoration: none;
 }
- 
-/*.sidebar a.active {
-  background-color:black;
-  color: white;
-}*/
 
 .sidebar a:hover:not(.active) {
-  background-color:black;
+  background-color: black;
   color: white;
 }
 
@@ -97,13 +92,18 @@ div.content {
     height: auto;
     position: relative;
   }
-  .sidebar a {float: left;}
-  div.content {margin-left: 0;}
+  .sidebar a {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+  }
 }
 
-@media screen and (max-width: 400px) {
-  .sidebar a {
-    text-align: center;
-    float: none;
-  }
+#more {
+  display: none;
+}
+
+.aboutMeFont{
+  font-family: 'Kaushan Script', cursive;
 }

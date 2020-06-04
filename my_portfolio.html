@@ -18,10 +18,10 @@
 <body>
 
   <div class="sidebar">
-    <a class="active" href="#home">Home</a>
-    <a href="resume1.html">Resume</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
+    <a class="active" href="#home"><i class="fa fa-home"></i>&nbsp;Home</a>
+    <a href="resume1.html"><i class="fa fa-file-text"></i>&nbsp;Resume</a>
+    <a href="#about"><i class="fa fa-user"></i>&nbsp;About</a>
+    <a href="#contact"><i class="fa fa-phone"></i>&nbsp;Contact</a>
   </div>
 
   <div class="content p-0">
@@ -30,9 +30,45 @@
         <div class="container">
           <div class="row">
             <div class="col-12 text-center">
-              <p class="pageBackgroundHeader mb-2">Web Developer</p>
+              <p class="pageBackgroundHeader mb-2" id=home>Web Developer</p>
               <p class="pageBackgroundContent">Will make the websites beautiful</p>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container mt-4">
+        <div class="row">
+          <div class="col-12 col-md-8">
+            <h2 class="mb-4" id=about>About Me</h2>
+            <p class="aboutMeFont">&emsp;Hey I am M.VijayaLakshmi.I don’t like to define myself by the work I’ve done. I define myself by the work I want to do. Skills can be taught, personality is inherent. I prefer to keep learning, continue challenging myself, and do interesting
+              things that matter.<span id="dots">...</span><span id="more"><br><br>&emsp;Fueled by high energy levels and boundless enthusiasm, I’m easily inspired and more then willing to follow my fascinations wherever they take me. I’m passionate, expressive, multi-talented spirit with a natural ability to entertain and inspire. I’m never satisfied to just come up with ideas. Instead I have an almost impulsive need to act on them.<br><br>
+              &emsp;My abundant energy fuels me in the pursuit of many interests, hobbies, areas of study and artistic endeavors. I’m a fast learner, able to pick up new skills and juggle different projects and roles with relative ease. I like to develop expertise in a number of areas over the course of my life and career.<br><br>&emsp;
+              I’m a people-person with deep emotions and empathy, a natural storyteller. I’m able to inspire and am at my best when I’m sharing my creative expressions with others. I currently work remotely and have a full-time commitment at InVision. Outside of my commitments I work with a select freelance client base. Feel free to get in touch by any means of communication. </span>
+            </p>
+            <button onclick="myFunction()" id="myBtn" class="btn btn-primary mb-4">Know more</button>
+            <script>
+              function myFunction() {
+                var dots = document.getElementById("dots");
+                var moreText = document.getElementById("more");
+                var btnText = document.getElementById("myBtn");
+
+                if (dots.style.display === "none") {
+                  dots.style.display = "inline";
+                  btnText.innerHTML = "Know more";
+                  moreText.style.display = "none";
+                }
+                else {
+                  dots.style.display = "none";
+                  btnText.innerHTML = "Know less";
+                  moreText.style.display = "inline";
+                }
+              }
+            </script>
+          </div>
+          <div class="col-12 col-md-4 border-left border-primary text-center text-md-right">
+            <img src="khyathi.jpg" height="350px;" alt="myImage">
           </div>
         </div>
       </div>
