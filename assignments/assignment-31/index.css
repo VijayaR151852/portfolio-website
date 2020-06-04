@@ -14,6 +14,28 @@ li {
     line-height:50px;
 }
 
+.inputForm{
+    padding-left:45px;    
+}
+
+@media only screen and (min-width:576px){ 
+    .inputForm{
+        padding-left:85px;
+    }
+}
+
+@media only screen and (min-width:768px){
+    .inputForm{
+        padding-left:15px;
+    }
+}
+
+@media only screen and (min-width:992px){
+    .carDelivery{
+        padding-left:35px;
+    }
+}
+
 .logo {
     height: 40px;
     width: 40px;
