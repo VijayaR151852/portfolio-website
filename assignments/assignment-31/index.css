@@ -85,6 +85,24 @@ li {
     margin: auto;
 }
 
+@media only screen and (min-width:576px){ 
+    .carDelivery{
+        padding-left:30px;
+    }
+}
+
+@media only screen and (min-width:768px){
+    .carDelivery{
+        padding-left:25px;
+    }
+}
+
+@media only screen and (min-width:992px){
+    .carDelivery{
+        padding-left:35px;
+    }
+}
+
 .opacity {
     opacity: 0.5;
 }
