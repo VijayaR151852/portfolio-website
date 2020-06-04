@@ -10,6 +10,10 @@ li {
     font-size:14px;
 }
 
+.headingLineHeight{
+    line-height:50px;
+}
+
 .logo {
     height: 40px;
     width: 40px;
@@ -17,11 +21,18 @@ li {
     border-radius: 50%;
     padding: 6px;
 }
+
 .simpleAndHandyProcessPara{
     width:100%;
     margin:auto;
 }
 
+@media only screen and (min-width:768px){
+    .simpleAndHandyProcessPara{
+        width:700px;
+    }
+}
+    
 .logoHeading {
     display: inline-block;
 }
@@ -33,7 +44,22 @@ li {
 }
 .carImage{
     height:200px;
+    width:300px;
     border-radius:10px;
+}
+
+@media only all and (min-width:768px){
+    .carImage{
+        height:250px;
+        width:320px;
+    }
+}
+
+@media only all and (min-width:992px){
+    .carImage{
+        height:340px;
+        width:480px;
+    }
 }
 
 .blockBackGround {
@@ -90,8 +116,4 @@ li {
     padding-top:20px;
 }
 
-@media only screen and (min-width:768px){
-    simpleAndHandyProcessPara{
-        width:700px;
-    }
-}
+
