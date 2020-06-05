@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Pacifico&family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&family=Kaushan+Script&family=Piedra&family=Berkshire+Swash&display=swap');
 .headerBackground {
   background-color: black;
 }
@@ -7,6 +7,7 @@
   background-image: url(background.jpg);
   padding: 27% 0;
   width: 100%;
+  height:50%;
   background-size: cover;
 }
 
@@ -104,6 +105,10 @@ div.content {
   display: none;
 }
 
-.aboutMeFont{
-  font-family: 'Kaushan Script', cursive;
+.contentFont{
+  font-family: 'Piedra', cursive;
+}
+
+.headingsFont{
+  font-family:'Kaushan Script', cursive;
 }

@@ -41,69 +41,124 @@
       <div class="container mt-4">
         <div class="row">
           <div class="col-12 col-md-8">
-            <h2 class="mb-4" id=about>About Me</h2>
-            <p class="aboutMeFont">&emsp;Hey I am M.VijayaLakshmi.I don’t like to define myself by the work I’ve done. I define myself by the work I want to do. Skills can be taught, personality is inherent. I prefer to keep learning, continue challenging myself, and do interesting
-              things that matter.<span id="dots">...</span><span id="more"><br><br>&emsp;Fueled by high energy levels and boundless enthusiasm, I’m easily inspired and more then willing to follow my fascinations wherever they take me. I’m passionate, expressive, multi-talented spirit with a natural ability to entertain and inspire. I’m never satisfied to just come up with ideas. Instead I have an almost impulsive need to act on them.<br><br>
-              &emsp;My abundant energy fuels me in the pursuit of many interests, hobbies, areas of study and artistic endeavors. I’m a fast learner, able to pick up new skills and juggle different projects and roles with relative ease. I like to develop expertise in a number of areas over the course of my life and career.<br><br>&emsp;
+            <h2 class="mb-4 headingsFont" id=about>About <span class="text-primary">Me</span></h2>
+            <p class="contentFont">&emsp;Hey I am M.VijayaLakshmi.I don’t like to define myself by the work I’ve done. I define myself by the work I want to do. Skills can be taught, personality is inherent. I prefer to keep learning, continue challenging myself, and do interesting
+              things that matter<br><br>&emsp;Fueled by high energy levels and boundless enthusiasm, I’m easily inspired and more then willing to follow my fascinations wherever they take me. I’m passionate, expressive, multi-talented spirit with a natural
+              ability to entertain and inspire. I’m never satisfied to just come up with ideas. Instead I have an almost impulsive need to act on them....<span id="dots">...</span><span id="more"><br><br>&emsp;My abundant energy fuels me in the pursuit of many interests, hobbies, areas of study and artistic endeavors. I’m a fast learner, able to pick up new skills and juggle different projects and roles with relative ease. I like to develop expertise in a number of areas over the course of my life and career.<br><br>&emsp;
               I’m a people-person with deep emotions and empathy, a natural storyteller. I’m able to inspire and am at my best when I’m sharing my creative expressions with others. I currently work remotely and have a full-time commitment at InVision. Outside of my commitments I work with a select freelance client base. Feel free to get in touch by any means of communication. </span>
             </p>
-            <button onclick="myFunction()" id="myBtn" class="btn btn-primary mb-4">Know more</button>
-            <script>
-              function myFunction() {
-                var dots = document.getElementById("dots");
-                var moreText = document.getElementById("more");
-                var btnText = document.getElementById("myBtn");
+            <div class="row">
+              <div class="col-12">
+                <button onclick="myFunction()" id="myBtn" class="btn btn-primary mb-4 px-4 mr-2">Know more</button>
+                <button class="btn btn-outline-primary px-4 mb-4"><i class="fa fa-envelope" style="font-size:20px"></i>&nbsp;Contact me</button>
+                <script>
+                  function myFunction() {
+                    var dots = document.getElementById("dots");
+                    var moreText = document.getElementById("more");
+                    var btnText = document.getElementById("myBtn");
 
-                if (dots.style.display === "none") {
-                  dots.style.display = "inline";
-                  btnText.innerHTML = "Know more";
-                  moreText.style.display = "none";
-                }
-                else {
-                  dots.style.display = "none";
-                  btnText.innerHTML = "Know less";
-                  moreText.style.display = "inline";
-                }
-              }
-            </script>
+                    if (dots.style.display === "none") {
+                      dots.style.display = "inline";
+                      btnText.innerHTML = "Know more";
+                      moreText.style.display = "none";
+                    }
+                    else {
+                      dots.style.display = "none";
+                      btnText.innerHTML = "Know less";
+                      moreText.style.display = "inline";
+                    }
+                  }
+                </script>
+              </div>
+            </div>
           </div>
-          <div class="col-12 col-md-4 border-left border-primary text-center text-md-right">
+          <div class="col-md-4 border-left border-primary  text-md-right d-none d-md-flex">
             <img src="khyathi.jpg" height="350px;" alt="myImage">
           </div>
         </div>
       </div>
     </section>
     <section>
-      <div class="container mt-4 mb-4">
-        <div class="row">
-          <div class="col-12 col-md-12">
-            <h3 class="mb-4 skillsContext">Skills</h3>
-          </div>
-          <div class="col-6 col-md-4 mb-4 text-center ">
-            <div><img src="static/Skills/C Language Icon/css.png" alt="c-lang" class="mr-4 skillsImg mb-2"></div>
-            <div class="mr-4 skillsContext">C</div>
-          </div>
-          <div class="col-6 col-md-4 mb-4 text-center">
-            <div><img src="static/Skills/HTML Icon/html(1).png" alt="html-lang" class="mr-4 skillsImg mb-2"></div>
-            <div class="mr-4 skillsContext">HTML</div>
-          </div>
-          <div class="col-6 col-md-4 mb-4 text-center">
-            <div><img src="static/Skills/CSS Icon/css(1).png" alt="css-lang" class="mr-4 skillsImg mb-2"></div>
-            <div class="mr-4 skillsContext">CSS</div>
-          </div>
-          <div class="col-6 col-md-4 mb-4 text-center">
-            <div><img src="assignments/assignment-24/assets/android.png" alt="android" class="mr-4 skillsImg mb-2"></div>
-            <div class="mr-4 skillsContext">Android</div>
-          </div>
-          <div class="col-6 col-md-4 mb-4 text-center">
-            <div><img src="assignments/assignment-24/assets/arduino.png" alt="arduino" class="mr-4 skillsImg mb-2"></div>
-            <div class="mr-4 skillsContext">Arduino</div>
-          </div>
-          <div class="col-6 col-md-4 mb-4 text-center">
-            <div class="mr-4 bootsrapIcon mb-2 skillsImg">
-              <h1>B</h1>
+      <div>
+        <div class="container mt-4 mb-4 ">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="headingsFont">Skills</h2>
             </div>
-            <div class="mr-4 skillsContext">Bootstrap</div>
+            <div class="col-12 col-md-6 mb-4">
+              <li class="text-center">
+                <h3>Soft skills</h3>
+              </li>
+              <li class="mb-3">
+                <p class="contentFont"><b>Leadership Skills</b></p>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                    60%
+                  </div>
+                </div>
+              </li>
+              <li class="mb-3">
+                <p class="contentFont"><b>Team Work</b></p>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:75%;">
+                    75%
+                  </div>
+                </div>
+              </li>
+              <li class="mb-3">
+                <p class="contentFont"><b>Communication</b></p>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                    80%
+                  </div>
+                </div>
+              </li>
+              <li class="mb-3">
+                <p class="contentFont"><b>Presentation skills</b></p>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                    90%
+                  </div>
+                </div>
+              </li>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+              <li class="text-center">
+                <h3>Technical skills</h3>
+              </li>
+              <li class="mb-3">
+                <p class="contentFont"><b>C Language</b></p>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                    80%
+                  </div>
+                </div>
+              </li>
+              <li class="mb-3">
+                <p class="contentFont"><b>Python</b></p>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                    85%
+                  </div>
+                </div>
+              </li>
+              <li class="mb-3">
+                <p class="contentFont"><b>Front end Development</b></p>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                    75%
+                  </div>
+                </div>
+              </li>
+              <li class="mb-3">
+                <p class="contentFont"><b>Arduino</b></p>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                    70%
+                  </div>
+                </div>
+              </li>
+            </div>
           </div>
         </div>
       </div>
