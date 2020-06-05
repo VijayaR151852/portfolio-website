@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Kaushan+Script&display=swap');
+.bgImg{
+  background-color:black;
+}
+.descriptionBlock
+{ 
+    /*background-color:whitesmoke;*/
+    margin-bottom:15px;
+    margin-top:15px;
+}
+.headingBorder
+{
+    border-bottom:2px solid dodgerblue;
+}
+.heading
+{
+    font-weight:normal;
+}
+.block
+{
+    background-color:dodgerblue;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+p{
+  font-family: 'Architects Daughter', cursive;
+  font-weight:bold;
+}
+
+h3,h5,h2{
+  font-family:'Kaushan Script', cursive;
+}

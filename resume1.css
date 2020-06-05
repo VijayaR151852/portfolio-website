@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Kaushan+Script&display=swap');
 .blockColor
 {
-    background-color:whitesmoke;
+    background-color:black;
 }
 .skillsImg
 {
@@ -20,4 +21,20 @@
     text-align:center;
     background-color:purple;
     font-size:24px;
+}
+p,h2,h1,li,h4,h5{
+    color:white;
+}
+
+h2,h1,li,h4,h5{
+   font-family:'Kaushan Script', cursive;
+}
+
+p{
+    font-weight: bold;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.headingBorder{
+    border-bottom:3px solid dodgerblue;
 }

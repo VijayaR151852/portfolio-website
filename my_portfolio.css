@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Pacifico&family=Kaushan+Script&family=Piedra&family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Kaushan+Script&display=swap');
 .headerBackground {
   background-color: black;
 }
@@ -106,9 +106,20 @@ div.content {
 }
 
 .contentFont{
-  font-family: 'Piedra', cursive;
+  font-family: 'Architects Daughter', cursive;
 }
 
 .headingsFont{
   font-family:'Kaushan Script', cursive;
+}
+
+.hobbiesImg{
+  width:70px;
+  border-radius:50%;
+  border:4px solid black;
+}
+
+.nameLogo{
+  border-radius:50%;
+  border:4px solid black;
 }
