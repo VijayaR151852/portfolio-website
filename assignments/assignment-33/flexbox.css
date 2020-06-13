@@ -1,0 +1,43 @@
+.container{
+    display:flex;
+    height:100vh;
+}
+
+.item{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.item1{
+    background-color:blue;
+}
+
+.item2{
+    background-color:#982abc;
+}
+
+.item3{
+    background-color: #ffab01;
+}
+
+.item4{
+    background-color:#00a1d8;
+}
+
+.item1 img{
+    height:80px;
+}
+
+.item2 img{
+    height:100px;
+}
+
+.item3 img{
+    height:60px;
+}
+
+.item4 img{
+    height:100px;
+}

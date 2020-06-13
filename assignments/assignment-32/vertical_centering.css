@@ -1,0 +1,29 @@
+body{
+    background-color: #ff3333;
+}
+
+.flex_container{
+    display:flex;
+    justify-content:center;
+    height:100vh;
+    align-items:center;
+    flex-direction:column;
+}
+.wIcon{
+    font-size:40px;
+    color: #ff3333;
+    font-style:italic;
+    font-weight:bold;
+    background:white;
+    /*display:inline-block;*/
+    padding: 15px;
+    text-align: center;
+    border-radius:50%;
+}
+
+.text{
+    color:white;
+    font-weight:bold;
+    width:160px;
+    text-align:center;
+}

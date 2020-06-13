@@ -1,0 +1,35 @@
+.mainContainer
+{
+    background-color:green;
+    display:flex;
+    padding:10px;
+    color:white;
+}
+
+.mainContainer .container:last-child{
+    border:none;
+}
+.container{
+    flex:1 1 33.333333333%;
+    display:flex;
+    padding:10px;
+    border-right:1px solid white;
+}
+
+.content > h3,p{
+    margin:0;
+}
+
+.content > p{
+    margin-top:5px;
+}
+
+.icon{
+    margin-left:14px;
+    margin-right:14px;
+    height:30px;
+    padding:10px;
+    background-color:white;
+    border-radius:50%;
+}
+

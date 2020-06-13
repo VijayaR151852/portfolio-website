@@ -27,17 +27,23 @@
   color: white;
 }
 
-.socialIcons {
-  height: 40px;
-  border-radius: 10px;
+li{
+    list-style-type:none;
 }
 
 .liDisplay {
   display: inline-block;
 }
 
-li {
-  list-style-type: none;
+.socialIcons {
+  border-radius:50%;
+  border:1px solid white;
+  padding:10px;
+  background-color:white;
+}
+
+.socialIcons:hover{
+    background-color:dodgerblue;
 }
 
 .skillsContext {

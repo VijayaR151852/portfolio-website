@@ -1,0 +1,39 @@
+ .mainContainer
+{
+    background-color:green;
+    display:flex;
+    padding:30px;
+    border-radius:6px;
+    color:white;
+}
+
+.mainContainer .container:last-child{
+    border:none;
+}
+.container{
+    flex:1 1 33.333333333%;
+    padding:10px;
+    flex-direction:column;
+    align-items:center;
+    display: flex;
+    border-right:1px solid white;
+}
+.container p{
+    margin-top:5px;
+    text-align:center;
+}
+
+.container h3{
+    margin-bottom:0px;
+    text-align:center;
+}
+
+.icon{
+    height:50px;
+    padding:10px;
+    background-color:rgba(0,0,0,0.3);
+    border-radius:50%;
+}
+
+
+

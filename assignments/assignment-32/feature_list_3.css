@@ -1,0 +1,57 @@
+ .mainContainer
+{
+    background-color:green;
+    display:flex;
+    flex-direction:column;
+    padding:30px;
+    border-radius:6px;
+    color:white;
+}
+
+.mainContainer .container:last-child{
+    border:none;
+}
+.container{
+    padding:15px;
+    display: flex;
+}
+.container p{
+    margin-top:5px;
+    font-size:20px;
+}
+.container h3{
+    margin-top:10px;
+    margin-bottom:0px;
+    font-size:25px;
+}
+
+.container1{
+    border-bottom:1px solid white;
+}
+
+.icon{
+    margin-right:10px;
+    height:60px;
+    padding:30px;
+    background-color:white;
+    border-radius:50%;
+}
+
+.container2{
+    display: flex;
+    flex-direction:row-reverse;
+    /*justify-content:flex-end;*/
+}
+
+.container2 h3{
+    text-align:right;    
+}
+
+.container2 p{
+    text-align:right;
+}
+
+.container2 .icon{
+    margin-left:10px;
+    margin-right:0;
+}
