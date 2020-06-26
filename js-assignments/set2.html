@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ECMA script</title>
+</head>
+
+<body id="console-root">
+    <h2>JavaScript Alert</h2>
+    <script src="https://tap.ibhubs.in/utils/console.js"></script>
+    <script>
+        //Question 1
+        let arr = ["hello", 1];
+        console.log("Question 1:", arr);
+
+        // Question 2
+        let arr2 = ["Bulls", 1, 2, 23, "White Sox", , 45, 3, 4, 5];
+        let nested1 = ["Bulls", 23]
+        let nested2 = [1, 2, 3, 4, 5]
+        let nested3 = ["one", "two", "three"]
+        let nested4 = ["White Sox", 45]
+        let nestedArr = [
+            [nested1, [nested2, [nested3]]],
+            [nested4]
+        ];
+        console.log("Question 2:", nestedArr);
+
+        // Question 3
+        let firstIndex = (arr) => {
+            return arr[1];
+        }
+        let firstIndexarr = [2, 5];
+        console.log("Question 3", firstIndex(firstIndexarr)); 
+
+        // Question 4
+        let myArray = [18, 64, 99];
+        myArray[0] = 45;
+        myArray[2] = "fifty four";
+        console.log("Question 4:", myArray);
+
+        // Question 5
+        let question5 = [
+            [1, 2, 3],
+            [4, 5, 6],
+            [7, 8, 9],
+            [
+                [10, 11, 12], 13, 14
+            ]
+        ]
+        console.log("Question 5:", question5[2][1], question5[3][0][2]);
+
+        //Question 6
+        let question6 = ["John", [2], 23];
+        let add = ["dog", 3]
+        question6.push(add);
+        console.log("Question 6:", question6);
+
+        // Question 7
+        let question7 = ["John", [2], 23];
+        console.log("Question 7:", question7.length);
+
+        // Question 8
+        let question8 = ["John", [2], 23];
+        console.log("Question 8:", question8.pop());
+
+        // Question 9
+        let question9 = ["John", [2], 23];
+        console.log("Question 9:", question9.shift());
+
+
+        // Question 10
+        let question10 = ["John", [2], 23];
+        question10.unshift("Good Morning")
+        console.log("Question 10:", question10);
+
+
+        // Question 11
+        let question11 = ["John", [2], 23];
+        let middle = question11.length / 2;
+        middle = parseInt(middle);
+        question11.splice(middle, 1)
+        console.log("Question 11:", question11);
+
+
+        // Question 12
+        let question12 = [2, 4, 5, 1, 7, 5, 2, 1]
+        question12.splice(1,4);
+        console.log("Question 12:", question12);
+
+
+        // Question13
+        let question13 = [10, 11, 12, 13, 14, 15];
+        console.log("Question 13:", question13.slice(2, 4));
+
+
+        // Question14
+        let question14 = [1, "two", 3, "four"];
+        console.log("Question 14:", question14.indexOf(3));
+
+
+        // Question15
+        let question15 = [1, "two", 3, "four"];
+        console.log("Question 15:", question14.indexOf(5));
+
+
+        // Question16
+        let question16 = [1, ["two", 3], "four"];
+        console.log("Question 16:", question16[1].indexOf("two"));
+        
+        
+        // Question17
+        let question17=["a", "b", "a", "a", "e", "a", "f"];
+        console.log("Question 17:", question17.lastIndexOf("a"));
+
+
+        // Question18
+        let question18=[1, ["two", 3], "four"];
+        let len=question18.length;
+        question18[len]="new element"
+        console.log("Question 18:", question18);
+
+
+        // Question19
+        let question19=[1, ["two", 3], "four"];
+        question19.push(2,4)
+        console.log("Question 19:", question19);
+
+
+        // Question20
+        let question20=[1, ["two", 3], "four"];
+        console.log("Question 20:", question20.concat([2,4]));
+
+
+        // Question21
+        let question21=["a","b","c","d","e","f","g"];
+        question21.splice(4,3,"one","two","three");
+        console.log("Question 21:",question21);
+
+        // Question22
+        let question22=[10,11,12,12,15];
+        question22.splice(3,1,13,14);
+        console.log("Question 22:",question22);
+        
+        // Question 23
+        let question23=[2,4,1,0,5];
+        question23.sort()        
+        console.log("Question 23:",question23);
+
+
+        // Question24
+        let question24=["hello","good","morning"]
+        let str=question24.join(" ")
+        console.log("Question 24:",str);
+
+
+        // Question25
+        let question25=[2,4,1,0,5];
+        question25.reverse()        
+        console.log("Question 25:",question25);
+
+
+
+        // Question26
+        let costumes={
+            "hat":"ballcap",
+            "shirt":"jersey",
+            "shoes":"cleats"
+        }
+        console.log("Question 26:",costumes.hat,costumes.shirt,costumes.shoes);
+
+
+        // Question27
+        let car={
+            "model name":"verna",
+            "fuel type":"petrol",
+            "drive mode":"manual"
+        }
+        console.log("Question 27:",car["model name"],car["fuel type"],car["drive mode"]);
+
+        // Question28
+        let myDog={
+            "name":"Coder",
+            "legs":4,
+            "tails":1,
+            "friends":["puppie"]
+        }
+        myDog.name="Kimmie"
+        console.log("Question 28:",myDog.name);
+
+        // Question29
+        myDog.bark="woof";
+        console.log("Question 29:",myDog.bark);
+
+        // Question30
+        delete myDog.tails;
+        console.log("Question 30:",myDog.tails);
+
+        // Question31
+        let positions={
+            top:"hat",
+            bottom:"pants",
+        }
+        
+        let isPropertExists=(object,position) =>{
+            return object.hasOwnProperty(position);
+        }
+        console.log("Question 31:",isPropertExists(positions,"bottom"),isPropertExists(positions,"middle"));
+        
+    </script>
+
+</body>
+
+</html>

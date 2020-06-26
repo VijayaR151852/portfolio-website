@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body id="console-root">
+    <!--<h1 id="change">Heading</h1>-->
+    <!--<h1 id="demo">Hello rkv</h1>-->
+    <!--<p id="demo1">hey i am a paragraph</p>-->
+    <!--<button onclick="func()">remove</button>-->
+    <script src="https://tap.ibhubs.in/utils/console.js"></script>
+    <script>
+        // function myFunc() {
+        //     document.getElementById("change").style.backgroundColor = "Blue";
+        //     document.getElementById("change").style.color = "white";
+        // }
+
+        // let func = () => {
+        //     let head = document.getElementById("demo");
+        //     head.parentNode.removeChild("demo1");
+        // }
+        // // let myImg = document.createElement("img");
+        // // myImg.src="fish.png";
+        // // myImg.alt="apple";
+        // // document.body.appendChild(myImg);
+
+        // let button = document.createElement("button");
+        // button.innerHTML = "Submit";
+        // button.onclick = () => {
+        //     alert("Your file is submitted!");
+        // }
+        // button.onclick = myFunc;
+        // // myImg.onclick=()=>{
+        // //     alert("Image is triggered");
+        // // }
+        // // 
+        // document.body.appendChild(button);
+
+        // k = Math.floor(3 / 2)
+        // console.log(k)
+        // console.log(3 / 2)
+        // console.log(parseInt("11", 2))
+        // console.log(parseInt("hello"))
+        // console.log('ask'.charAt(1))
+        // let s_prim = 'foo'
+        // let s_obj = new String(s_prim)
+        // console.log(typeof s_prim) // Logs "string"
+        // console.log(typeof s_obj);
+        // ['dog', 'cat', 'hen'].forEach(function(currentValue, index, array) {
+        //     console.log(currentValue,index,array)
+        // });
+
+        // function Person(name, age) {
+        //     this.name = name;
+        //     this.age = age;
+        // }
+
+        // let man=new Person("harsha",20);
+        // console.log(man.name);
+
+        // let  a=[1,2,3,4]
+        // console.log(a.toLocaleString());
+        // for (const i of a){
+        //     console.log(i)
+        // }
+
+        // function avg(...args) {
+        //     var sum = 0;
+        //     for (let value of args) {
+        //         sum += value;
+        //     }
+        //     return sum / args.length;
+        // }
+
+        // console.log(avg(2, 3, 4, 5));
+        // console.log(false || true || 'a')
+        // console.log('a' || false)
+        // // let [1,2,3]=a;
+        // // console.log(a1 = true && true, a2 = true && false, a3 = false && true, a4 = false && (3 == 4), a5 = 'Dog' && 'Cat', a6 = false && 'Cat', a7 = 'Cat' && false, a8 = '' && false, a9 = false && '')
+        // console.log(1 && 'f' && 0 && false)
+        // let car = {
+        //     name: "suzuki",
+        //     wheel: 4
+        // }
+        // let arr = ["hi", "hey"]
+        // for (let i in car) {
+        //     console.log(i)
+        // }
+
+        // function makeSub(a) {
+        //     return function(b) {
+        //         return a - b;
+        //     };
+        // }
+        // let k=makeSub(4);
+        // let res=k(3);
+        // console.log(res);
+
+        // function calc(op){
+        //     if(op=="sub"){
+        //         let sub=(a,b) =>{
+        //             return a-b;
+        //         } 
+        //         return sub
+        //     }
+        // }
+        // let sub=calc("sub")
+        // console.log(sub(6,5))
+        let arr=[1,2,3,4];
+        /*function func(val){
+            let res=arr.indexOf(val);
+            if(res==-1){
+                return false;
+            }
+            return true;
+        }
+        console.log(func(5));*/
+        const course=[
+            {id:1,name:'a'},
+            {id:2,name:'b'}
+        ]
+        console.log(course.find(item=>item.id===2));
+    </script>
+</body>
+
+</html>

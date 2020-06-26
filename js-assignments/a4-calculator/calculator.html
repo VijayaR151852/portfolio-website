@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Calculator</title>
+  <link rel="stylesheet" href="calculator.css" />
+</head>
+
+<body id="console-root">
+  <h2>Calculator</h2>
+  <script src="https://tap.ibhubs.in/utils/console.js"></script>
+  <div class="container">
+    <div class="res">
+      <input type="text" value="0" id="result">
+    </div>
+    <div class="numbers">
+      <div class="operators">
+        <button onclick="cal('(')" class="val">(</button>
+        <button onclick="cal(')')" class="val">)</button>
+        <button onclick="cal('.')" class="val">.</button>
+        <button onclick="clr('c')" class="val clear">Clear</button>
+      </div>
+      <div class="values">
+        <div class="digits">
+          <div class="firstRow">
+            <button onclick="cal('7')" class="val">7</button>
+            <button onclick="cal('8')" class="val">8</button>
+            <button onclick="cal('9')" class="val">9</button>
+          </div>
+          <div class="secondRow">
+            <button onclick="cal('4')" class="val">4</button>
+            <button onclick="cal('5')" class="val">5</button>
+            <button onclick="cal('6')" class="val">6</button>
+          </div>
+          <div class="thirdRow">
+            <button onclick="cal('1')" class="val">1</button>
+            <button onclick="cal('2')" class="val">2</button>
+            <button onclick="cal('3')" class="val">3</button>
+          </div>
+          <div class="fourthRow">
+            <button onclick="cal('0')" class="val">0</button>
+            <button onclick="cal('+')" class="val operator">+</button>
+            <button onclick="cal('00')" class="val">00</button>
+          </div>
+        </div>
+        <div class="equals">
+          <button onclick="solve()" id="equal">=</button>
+        </div>
+      </div>
+      <div class="operators">
+        <button onclick="cal('-')" class="val operator">-</button>
+        <button onclick="cal('*')" class="val operator">*</button>
+        <button onclick="cal('/')" class="val operator">/</button>
+        <button onclick="clr('ac')" class="val ac">AC</button>  
+      </div>
+    </div>
+  </div>
+  
+  <script src="calculator.js"></script>
+ 
+</body>
+
+</html>
+
+<!-- very hard to find operator keys try to keep them side by side -->

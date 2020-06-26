@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="carousel.css" />
+</head>
+
+<body>
+    <div id="container">
+        <div id="prev" onClick="prev()">
+            <</div>
+                <div id="block"></div>
+                <div id="next" onClick="next()">></div>
+        </div>
+    </div>
+    <div id="thumbnail">
+        <a href="GxoNXE9.jpg"><img src="GxoNXE9.jpg" height="80px;"></a>
+        <a href="#"><img src="photo-1515890435782-59a5bb6ec191.jpeg" height="80px;"></a>
+        <a href="#"><img src="sunflower-1508785046.jpg" height="80px;"></a>
+        <a href="#"><img src="lotus.jpg" height="80px;"></a>
+    </div>
+    <script>
+        let arr = ["url(GxoNXE9.jpg)", "url(photo-1515890435782-59a5bb6ec191.jpeg)", "url(sunflower-1508785046.jpg)", "url(lotus.jpg)"];
+        let bg = document.getElementById("block")
+        bg.style.background = arr[3];
+        bg.style.backgroundSize = "cover";
+        let i = 0;
+        let prev = () => {
+            i--;
+            if (i >= 0) {
+                bg.style.background = arr[i];
+                bg.style.backgroundSize = "cover";
+            }
+            else {
+                bg.style.background = arr[arr.length - 1];
+                bg.style.backgroundSize = "cover";
+
+                i = arr.length - 1;
+            }
+        }
+        let next = () => {
+            i++;
+            if (i < arr.length) {
+                bg.style.background = arr[i];
+                bg.style.backgroundSize = "cover";
+            }
+            else {
+                bg.style.background = arr[0];
+                bg.style.backgroundSize = "cover";
+                i = 0;
+            }
+        }
+    </script>
+</body>
+
+</html>

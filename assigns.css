@@ -1,0 +1,36 @@
+/*div+p{*/
+/*    color:red;*/
+/*    background-color:yellow;*/
+/*}*/
+
+.parent {
+  display: flex;
+  background-color:dodgerblue;
+  /*justify-content:center;*/
+  /*align-items:center;*/
+}
+p{
+  flex:1;
+}
+
+.child {
+  /*width: 100px;  /* Or whatever 
+  height: 100px; /* Or whatever*/ 
+  /*Magic! 
+  background-color: blue;*/
+  display:flex;
+  color:white;
+  border:1px solid black;
+  list-style:none;
+  justify-content:flex-end;
+  /*margin:0px;*/
+  padding:0px;
+}
+
+.fixed{
+  position: fixed;
+  width: 200px;
+  bottom:0;
+  right:0;
+  border: 3px solid #73AD21;
+}

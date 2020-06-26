@@ -10,18 +10,19 @@ body {
 
 .item{
   height:50px;
-  flex:initial;
-  /*max-width:100%;*/
 }
 
 .item1{
   background-color:orange;
+  flex:1 1 614px;
 }
 
 .item2{
   background-color:saddlebrown;
+  flex:1 1 400px;
 }
 
 .item3{
   background-color:green;
+  flex:1 1 300px;
 }

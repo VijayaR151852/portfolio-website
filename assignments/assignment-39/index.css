@@ -1,1 +1,132 @@
+.container{
+    background-color:black;
+    border-radius:30px;
+    display:flex;
+    padding:0;
+}
 
+.imageBackgroundItem{
+    background-image: url(assets/background-image.jpeg);
+    border-radius:30px;
+    flex:1;
+}
+
+.gradient{
+    background-image:linear-gradient(135deg,#72edf2B3 10%,#5151e5B3 100%);
+    border-radius:30px;
+    display:flex;
+    padding:10px;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+.font_color{
+    color:white;
+}
+
+.day{
+    padding-top:25px;
+}
+
+.date{
+    line-height: 0.4;
+}
+
+.district{
+    line-height:1.0;
+    font-size:20px;
+}
+
+.temperature{
+    font-weight:bold;
+    font-size:60px;
+    margin-bottom:-10px;
+}
+
+.gradientSun{
+    margin-top:120px;
+    height:60px;
+    width:60px;
+}
+
+.blackBackrgroundItem{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    padding:30px 10px;
+}
+
+.blackBackrgroundItem ul{
+    list-style: none;
+    padding:0;
+    margin: 0;
+    display:flex;
+    flex-direction:column;
+    flex:1;
+    color:white;
+    font-weight:bold;
+}
+.weather{
+    display: flex;
+    flex:1;
+    margin: 0;
+}
+.weatherPercentage li{
+    text-align:right;
+    font-weight: normal;
+}
+
+.weatherDays{
+    margin:0;
+    display: flex;
+    flex:1;
+    justify-content:space-around;
+}
+
+.weatherForecast{
+    padding:10px;
+    color:white;
+    border-radius:5px;
+    display: flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    margin:0;
+}
+
+.sat{
+    background-color:white;
+    color:black;
+}
+
+.temp{
+    font-weight: bold;
+}
+
+.weatherForecastDays{
+    padding-top:10px;
+}
+
+.locationButton{
+    margin-top: 40px;
+    color:white;
+    font-weight: bold;
+    background-image:linear-gradient(#72edf2,#5151e5);
+    text-align:center;
+    border-radius:20px;
+}
+
+.locationImg{
+    height:15px;
+    width:15px;
+}
+
+.locationPadding{
+    padding-top:10px;
+}
+
+@media all and (min-width:992px){
+    .container{
+        width:750px;
+    }
+}

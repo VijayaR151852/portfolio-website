@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ECMA script</title>
+</head>
+
+<body id="console-root">
+    <h2>JavaScript Alert</h2>
+    <script src="https://tap.ibhubs.in/utils/console.js"></script>
+    <script>
+        //Question 1
+        console.log("Question 1:", "You progress, the Nation follows");
+
+        // Question 2
+        console.log("Question 2:", "You\nprogress,\nthe\nNation\nfollows");
+
+        // Question 3
+        let str = "I'm JavaScript!";
+        console.log("Question 3", str);
+
+        // Question 4
+        // let question4=prompt("input for question4:");
+        // console.log("Question 4:",question4);
+
+        // Question 5
+        let copiedName;
+        let name = "John";
+        copiedName = name;
+        console.log("Question 5:", copiedName);
+
+        //Question 6
+        let variable;
+        console.log("Question 6:", variable);
+
+        // Question 7
+        let type = (a) => {
+            console.log("Question 7:", typeof a);
+        }
+        type(5);
+
+
+        // Question 8
+        //let user=prompt("Enter your name please:");
+        //console.log("Question 8:",`Congratulations ${user}`); 
+        
+       // they asked to use functions
+       
+        // Question 9
+        // let swap = (a, b) => {
+        //     let temp;
+        //     temp = a;
+        //     a = b;
+        //     b = temp;
+        //     console.log("Question 9:", a, b);
+        // }
+        //swap(prompt("enter 1st number"),prompt("enter 2nd number"));
+
+
+        // Question 10
+        let swapping = (a, b) => {
+            a = a + b;
+            b = a - b; 
+            a = a - b;
+            console.log("Question 10:", a, b);
+        }
+        swapping(4,5);
+        
+        
+        // Question 11
+        let average=(a,b) =>{
+            console.log("Question 11:",(a+b)/2);
+        }
+        average(3,9);
+        
+        
+        // Question 12
+        let costprice=(sellingprice,profit) =>{
+            console.log("Question 12:",(sellingprice-profit)/15);
+        }
+        costprice(2400,900);
+        
+        
+        //Not used functions
+        
+        // Question13
+        let aggregate=(a,b,c,d,e) =>{
+            console.log("Question 13:","Total:",a+b+c+d+e,"Percentage:",(a+b+c+d+e)/5)
+        }
+        aggregate(100,100,100,100,36);
+        
+        
+        
+        
+        // Question14
+        let areaOfTriangle=(base,height) =>{
+            console.log("Question 14:",1/2*(base*height));
+        }
+        areaOfTriangle(12,5)
+        //areaOfTriangle(prompt("base of a triangle:"),prompt("height of a triangle:"))
+    
+        
+        // Question15
+        let areaOfCircle=(radius) =>{
+            console.log("Question 15:", 22/7*(radius*radius)); // pi = 3.14, 22/7 will give more decimal numbers.
+        }
+        areaOfCircle(21);
+        
+        
+        //areaOfCircle(prompt("radius of circle:"));
+        
+        
+        // Question16
+        let area=(perimeter) =>{
+            let radius=perimeter/(2*3.14);
+            console.log("Question 16:",22/7*(radius*radius));
+        }
+        area(3.14);
+        //area(prompt("radius of circle:"));
+        
+        // Question17
+        let widthOfRectangle=(perimeter,length) =>{
+            let radius=perimeter/(2*3.14);
+            area=22/7*(radius*radius);
+            console.log("Question 17:",area/length);
+        }
+        widthOfRectangle(3.14,1);
+        //widthOfRectangle(prompt("perimeter of circle:"),prompt("length of rectangle"));
+    
+    
+        // Question18
+        let celsius=(fahrenheit) =>{
+            console.log("Question 18:",(fahrenheit-32)*5/9);
+        }
+        celsius(437);
+        // celsius(prompt("fahrenheit temp:"));
+        
+        
+        // Question19
+        let fahrenheit=(celsius) =>{
+            console.log("Question 19:",(celsius*(9/5))+32);
+        }
+        fahrenheit(0);
+        // fahrenheit(prompt("celsius temp:"));
+        
+        
+        // Question20
+        let salary=(hours,pay) =>{
+            let yearSalary=hours*pay;
+            let monthlySalary=yearSalary/12;
+            console.log("Question 20:",monthlySalary);
+        }
+        salary(120,5000);
+        // salary(prompt("no.of hours:"),prompt("pay per hour:"));
+        
+        
+        // Question21
+        // 675 	Years: 1, Months: 10, Weeks: 1, Days: 3
+        let conversionOfDays=(days) =>{
+            let years=(days/365);
+            let rm=days%365;
+            let months=rm/30;
+            rm=rm%30;
+            let weeks=rm/7;
+            rm=rm%7;
+            days=rm;
+            console.log("Question 21:","Years:",parseInt(years),",","Months:",parseInt(months),",","Weeks:",parseInt(weeks),",","Days",parseInt(days));
+        }
+        conversionOfDays(675);
+        
+        
+        // Question22
+        let convertIntoDays=(years,months,weeks,days) =>{
+            console.log("Question 22:",years*365+months*30+weeks*7+days);
+        }
+        convertIntoDays(1,10,1,3);
+        
+        // 680 	100 notes count: 6, 50 notes count: 1, 20 notes count: 1, 10 notes count: 1 
+        // Question 23
+        let denominations=(notes) =>{
+            let hundreds=notes/100;
+            notes=notes%100;
+            let fifty=notes/50;
+            notes=notes%50;
+            let  twenty=notes/20;
+            notes=notes%20;
+            let tens=notes/10;
+            console.log("Question 23:","100 notes count:",parseInt(hundreds),",","50 notes count:",parseInt(fifty),",","20 notes count:",parseInt(twenty),",","10 notes count: ",parseInt(tens));
+        }
+        denominations(680);
+        
+        
+        // Question24
+        let stikeRate=(runs,balls) =>{
+            console.log("Question 24:",(runs/balls)*100);
+        }
+        stikeRate(21,14);
+        
+        
+        
+        // Question25
+        let runRate=(score) =>{
+            console.log("Question 25:",score/50);
+        }
+        runRate(300);
+        
+        
+        
+        // Question26
+        let handShakes=(n) =>{
+            console.log("Question 26:",(n*(n-1))/2);
+        }
+        handShakes(4);
+        
+        
+        // Question27
+        // They asked t write a function for calculating square
+        let sumOfSquares=(a,b,c,d,e) =>{
+            console.log("Question 27:",a*a+b*b+c*c+d*d+e*e); 
+        }
+        sumOfSquares(2, 4, 45, 0, 5);
+        
+        
+        
+        // Question28
+        let concatenate=(s1,s2) =>{
+            console.log("Question 28:",s1+s2);
+        }
+        concatenate("hello","world");
+        
+        
+        // Question29
+        let modulus=(a,b) =>{
+            console.log("Question 29:",(a%b));
+        }
+        modulus(12,5);
+        
+        
+        // Question30
+        let increment=(num) =>{
+            console.log("Question 30:",++num);
+        }
+        increment(-225);
+        
+        
+        // Question31
+        let decrement=(num) =>{
+            console.log("Question 31:",--num);
+        }
+        decrement(-102);
+    </script>
+    
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+.container{
+    padding:50px;
+    background-color:#008080;
+    display:flex;
+    border-radius:7px;
+}
+
+.item{
+    display:flex;
+    flex-direction:column;
+    margin:10px;
+    flex:1;
+    border-radius:7px;
+}
+
+.image{
+    background-color:#99ffff;
+    text-align:center;
+    padding:50px;
+}
+
+.content{
+    background-color: white;
+    flex:1;
+    padding:10px;
+}
+
+.content > h3{
+    color:#008080;
+}
+
+.content > p{
+    color:#008080;
+    opacity:0.8;
+}

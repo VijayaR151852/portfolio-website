@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="tabs.css" />
+</head>
+
+<body>
+    <div class="container">
+        <button onclick="tabFunc('tab1')">Tab1</button>
+        <button onclick="tabFunc('tab2')">Tab2</button>
+        <button onclick="tabFunc('tab3')">Tab3</button>
+        <button onclick="tabFunc('tab4')">Tab4</button>
+    </div>
+    <p id="default" style="text-align:center">Welcome to the tab's layout<br> click on proper tab to display the content</p>
+    <script>
+        let image = document.createElement("img");
+        let para = document.createElement("p");
+        let heading = document.createElement("h2");
+        image.style.display = "block"
+        image.style.margin = "auto"
+        heading.style.textAlign = "center";
+        para.textContent = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit,sed diam nonummy nibh euismod tincidunt ut laoreet dolor magna aliquam erat volutpat. Ut wisi enim ad minim veniam"
+        let tabFunc = (tab) => {
+            switch (tab) {
+                case "tab1":
+                    image.src = "fish.png";
+                    image.alt = "fish";
+                    heading.textContent = "Tab1 Content"
+                    document.body.appendChild(heading);
+                    document.body.appendChild(image);
+                    document.body.appendChild(para);
+                    document.getElementById("default").style.display = "none";
+                    break;
+                case "tab2":
+                    image.src = "carrot.png";
+                    image.alt = "carrot";
+                    heading.textContent = "Tab2 Content"
+                    document.body.appendChild(heading);
+                    document.body.appendChild(image);
+                    document.body.appendChild(para);
+                    document.getElementById("default").style.display = "none";
+                    break;
+
+                case "tab3":
+                    image.src = "apple.png";
+                    image.alt = "apple";
+                    heading.textContent = "Tab3 Content"
+                    document.body.appendChild(heading);
+                    document.body.appendChild(image);
+                    document.body.appendChild(para);
+                    document.getElementById("default").style.display = "none";
+                    break;
+
+                case "tab4":
+                    image.src = "fish.png";
+                    image.alt = "fish";
+                    heading.textContent = "Tab4 Content"
+                    document.body.appendChild(heading);
+                    document.body.appendChild(image);
+                    document.body.appendChild(para);
+                    document.getElementById("default").style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>

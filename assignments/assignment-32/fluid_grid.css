@@ -1,0 +1,48 @@
+body{
+    background-color:purple;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: white;
+    display:flex;
+    margin:15px;
+    min-height:100vh;
+    flex-direction:column;
+}
+
+.item{
+    flex:1;
+    display:flex;
+    /*padding:20px;*/
+    padding-left:20px;
+    padding-right:20px;
+    color:purple;
+}
+
+.item1{
+    border-bottom:2px solid purple;
+}
+
+.border-right{
+    border-right:2px solid purple;
+}
+
+.item1:last-child{
+    border-right:0px;
+}
+.section{
+    padding:20px;
+    flex:3;
+}
+
+.section1{
+    padding:20px;
+    flex:6.45;
+}
+
+.item2 .auto{
+    flex:3;
+    padding:20px;
+}

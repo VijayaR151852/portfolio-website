@@ -1,8 +1,81 @@
 .container{
     display:flex;
+    padding:20px;
 }
 
 .twitter{
     border-radius:50%;
     height:50px;
+}
+
+.content{
+    display: flex;
+    flex:1;
+    flex-direction:column;
+    padding:10px;
+    padding-top:0px;
+}
+
+.row1{
+    display: flex;
+    flex-direction:row;
+}
+
+.row1 ul{
+    margin:0px;
+    padding:0;
+    list-style:none;
+    display: flex;
+    flex:1;
+}
+
+.tick{
+    margin-top:2px;
+}
+
+.contentOpacity{
+    opacity:0.5;
+    margin-left:5px;
+}
+
+.context{
+    margin:0;
+}
+
+.row3 ul{
+    margin:0px;
+    padding:0;
+    list-style:none;
+    display: flex;
+    padding-right:80px;
+    justify-content:space-between;
+    flex:1;
+}
+
+.share_desktop{
+    display: none;
+}
+
+.drop_down{
+    flex:1;
+}
+.row3 li{
+    display: flex;
+    align-items:center;
+}
+
+.row3 .icon_text{
+    margin: 0;
+    padding:10px;
+    opacity:0.5;
+}
+
+@media all and (min-width:992px){
+    .share_desktop{
+        display:block;
+    }
+    
+    .share{
+        display: none;
+    }
 }

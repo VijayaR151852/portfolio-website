@@ -1,0 +1,490 @@
+!DOCTYPE html>
+<html>
+
+<head>
+    <title>ECMA script</title>
+</head>
+
+<body id="console-root">
+    <h2>JavaScript Alert</h2>
+    <script src="https://tap.ibhubs.in/utils/console.js"></script>
+    <script>
+        //Question1
+        let getHighestNumber = (a, b) => {
+            if (a > b) {
+                return a;
+            }
+            return b;
+        }
+        console.log("Question 1:", getHighestNumber(225, 522));
+
+
+        //Question2
+        let getLeastNumber = (a, b) => {
+            if (a < b) {
+                return a;
+            }
+            return b;
+        }
+        console.log("Question 2:", getLeastNumber(225, 522));
+
+
+        //Question3
+        let guidePedestrian = (light) => {
+            switch (light) {
+                case "red":
+                    return "Do not cross";
+                case "green":
+                    return "Safe to cross";
+                case "orange":
+                    return "Cross only if it is safe"
+                default:
+                    return "Hola! You are not in the junction";
+            }
+        }
+        console.log("Question 3:", guidePedestrian("red"));
+
+
+        // Question4
+        let checkEqualityOfTwoNumbers = (a, b) => {
+            if (a === b) {
+                return "Both are equal";
+            }
+            return "Not equal"
+        }
+        console.log("Question 4:", checkEqualityOfTwoNumbers(2, 2))
+
+
+        // Question5
+        let isPositiveNumber = (a) => {
+            if (a > 0) {
+                return true;
+            }
+            return false;
+        }
+        console.log("Question 5:", isPositiveNumber(0));
+
+
+        // Question6
+        let getGrade = (marks) => {
+            if (marks < 0 || marks > 100) {
+                return "Invalid marks";
+            }
+            else if (marks < 35) {
+                return "Fail"
+            }
+            else if (marks <= 50 && marks >= 35) {
+                return "D";
+            }
+            else if (marks <= 60 && marks >= 50) {
+                return "C";
+            }
+            else if (marks <= 70 && marks >= 60) {
+                return "B";
+            }
+            else if (marks <= 80 && marks >= 70) {
+                return "A";
+            }
+            else if (marks >= 80) {
+                return "Distinction";
+            }
+        }
+        console.log("Question 6:", getGrade(100))
+
+
+        // Question7
+        let type = (val) => {
+            let datatype = typeof val
+            switch (datatype) {
+                case "number":
+                    return "Type is Number"
+                case "string":
+                    return "Type is String"
+                case "boolean":
+                    return "Type is Boolean"
+                case "object":
+                    return "Type is Object"
+                case "undefined":
+                    return "Type is Undefined"
+            }
+
+        }
+        console.log("Question 7:", type(true))
+
+
+        // Question8
+        let multipleOf5Or4 = (val) => {
+            if (val % 4 == 0 || val % 5 == 0) {
+                return true;
+            }
+            return false;
+        }
+        console.log("Question 8:", multipleOf5Or4(0))
+
+
+        // Question9
+        let isVowelOrConsonant = (val) => {
+            function isAlphabet(val) {
+                if ((typeof val) == "string" && val.length == 1) {
+                    return true;
+                }
+                return false
+            }
+            if (isAlphabet(val)) {
+                let regex = /[AEIOU]/gi;
+                let count = val.match(regex);
+                if (count == null) {
+                    return "Consonant";
+                }
+                return "Vowel"
+            }
+            return "Invalid input";
+        }
+        console.log("Question 9:", isVowelOrConsonant('string'));
+
+
+
+        // Question10
+        let isEven=(val)=>{
+            let res=(val%2==0) ? 'Even' :'Odd';
+            return res;
+        }
+        console.log("Question 10:", isEven(5));
+
+
+        // Question11
+        let calculateGcd=(a,b)=>{
+            if(!b){
+                return a;
+            }
+            return calculateGcd(b,a%b);
+        }
+        console.log("Question 11:", calculateGcd(24,60));
+
+
+        // Question12
+        let countNumberOfDigits=(num)=>{
+            let count=0;
+            if(num==0){
+                return 1;
+            }
+            while(num>0){
+                count=count+1;
+                num=parseInt(num/10);
+            }
+            return count;
+        }
+        console.log("Question 12:", countNumberOfDigits(0));
+
+
+        // Question13
+        let sumOfDigits=(num)=>{
+            let sum=0,l;
+            while(num>0){
+                l=num%10;
+                sum=sum+l;
+                num=Math.floor(num/10);
+            }
+            return sum;
+        }
+        console.log("Question 13:",sumOfDigits(188))
+
+
+        // Question14
+        let factorialOfNumber=(num)=>{
+            let fac=1;
+            if(num==0){
+                return 1;
+            }
+            for(let i=num;i>=1;i--){
+                fac=fac*i;
+            }
+            return fac;
+        }
+        console.log("Question 14:",factorialOfNumber(10));
+
+
+        // Question15
+        let isLeapYear=(year)=>{
+            if(((year % 4 == 0) && (year % 100 != 0)) || 
+             (year % 400 == 0)){
+                 return "Leap year";
+             }
+             return "not a leap year";
+        }
+        console.log("Question 15:",isLeapYear(1900));
+
+
+        // Question16
+        let isPerfectNumber=(num)=>{
+            let sum=0;
+            for (let i=1;i<num;i++){
+                if(num%i==0){
+                    sum=sum+i;
+                }
+            }
+            if(sum===num){
+                return "Perfect number"
+            }
+            return "Not a perfect number"
+        }
+        console.log("Question 16:",isPerfectNumber(28));
+
+
+        // Question17
+        let factorialOfANumber=(num)=>{
+            let arr=[]
+            for (let i=1;i<=num;i++){
+                if(num%i==0){
+                    arr.push(i);
+                }
+            }
+            return arr;
+        }
+        console.log("Question 17:",factorialOfANumber(15));
+
+
+        // Question18
+        let getSmallestNumberFromArray=(arr)=>{
+            let small=9999999999;
+            for(let i=0;i<arr.length;i++){
+                if(arr[i]<small){
+                    small=arr[i]
+                }
+            }
+            return small
+        }
+        console.log("Question 18:",getSmallestNumberFromArray([12,19,2,25,9,-5,-5,1,0]));
+
+
+        // Question19
+        let getLargestNumberFromArray=(arr)=>{
+            let large=-9999999999;
+            for(let i=0;i<arr.length;i++){
+                if(arr[i]>large){
+                    large=arr[i]
+                }
+            }
+            return large
+        }
+        console.log("Question 19:",getLargestNumberFromArray([12,19,2,25,9,-5,-5,1,0]));
+
+
+        // Question20
+        let sumOfElements=(arr)=>{
+            let sum=0;
+            for(let i=0;i<arr.length;i++){
+              sum+=arr[i];
+            }
+            return sum;
+        };
+        console.log("Question 20:",sumOfElements([12,19,2,25,9,1]));
+
+
+        // Question21
+        let countNumberOfOddNumbers=(arr)=>{
+            let count=0;
+            for(let i=0;i<arr.length;i++){
+                if(arr[i]%2!=0)
+                {
+                    count++;
+                }
+            }
+            return count;
+        };
+        console.log("Question 21:",countNumberOfOddNumbers([12,19,2,25,9,1]));
+
+        // Question22
+        let countNumberOfEvenNumbers=(arr)=>{
+            let count=0;
+            for(let i=0;i<arr.length;i++){
+                if(arr[i]%2===0)
+                {
+                    count++;
+                }
+            }
+            return count;
+        };
+        console.log("Question 22:",countNumberOfEvenNumbers([12,19,2,25,9,1]));
+
+
+        // Question23
+        let isEmptyObject=(obj)=>{
+            let arr=Object.keys(obj)
+            if(arr.length==0){
+                return true;
+            }
+            return false;
+        }
+        console.log("Question 23:",isEmptyObject({name:"john"}));
+
+
+
+        // Question24
+        let displayPropertyWithValue=(obj)=>{
+            let arr=Object.entries(obj).map(([key, value]) => [key+" "+value])
+            return arr.join(",")
+        }
+        console.log("Question 24:",displayPropertyWithValue({name:"john",age:18}));
+
+
+
+        // Question25
+        let getAllPropertyNames=(obj)=>{
+            return Object.keys(obj)
+        }
+        console.log("Question 25:",getAllPropertyNames({name:"john",age:18}));
+
+
+
+        // Question26
+        let getArrayLength=(arr)=>{
+            return arr.length
+        }
+        console.log("Question 26:",getArrayLength([1,2,3,4,5,7,4]))
+
+
+
+        // Question27
+        let addAnElement=(arr,val)=>{
+            arr.push(val)
+            return arr;
+        }
+        console.log("Question 27:",addAnElement([1,2,3,4,5,7,4],"d"))
+
+
+        // Question28
+        let removeLastElementFromArray=(arr)=>{
+            arr.pop()
+            return arr
+        }
+        console.log("Question 28:",removeLastElementFromArray([1,2,3,4,5,7,4]))
+
+
+
+        // Question29
+        let removeElementsFromArray=(arr,start,len)=>{
+            arr.splice(start,len)
+            return arr
+        }
+        console.log("Question 29:",removeElementsFromArray([1,2,3,4,5,7,4],0,2))
+
+
+        // Question30
+        let getSubArray=(arr,start,end)=>{
+            return arr.slice(start,end)
+        }
+        console.log("Question 30:",getSubArray([1,2,3,4,5,7,4],0,5))
+
+
+        // Question31
+        let myArray=(arr)=>{
+            arr.push(10);
+            arr.splice(0,3)
+            arr.splice(0,3,0,1,2)
+            arr.splice(1,1)
+            arr.pop()
+            return arr
+        }
+        console.log("Question 31:",myArray([1, 1.4, 2, 3, 122, ["a", "b", "f"], true, false, [0]]));
+
+
+
+        // Question32
+        let addProperty = (obj, key, value) => {
+            obj[key] = value;
+            return obj
+        }
+        console.log("Question 32:", addProperty({ a: "1", b: "2", c: "3" }, "d", "three"))
+
+
+
+        // Question33
+        let updateProperty = (obj, k, v) => {
+            obj[k] = v;
+            return obj;
+        };
+        console.log("Question 33:", updateProperty({ a: "1", b: "2", c: "3" }, "c", "three"));
+
+
+        // Question34
+        let deleteProperty = (obj, key) => {
+            delete obj[key];
+            return obj;
+        };
+        console.log("Question 34:", deleteProperty({ a: "1", b: "2", c: "3" }, "c"));
+
+
+        // Question35
+        let addObjectsToArray = (arr, arrObj) => {
+            return arr.concat(arrObj);
+        };
+        console.log("Question 35:", addObjectsToArray(["a", "b", "c"], [{ a: "1", b: "2", c: "3" }, { d: "4" }, { f: 6 }]));
+
+
+
+        // Question36
+        let addPropertyToKey = (obj) => {
+            obj.data.friends.push("Ram");
+            return obj;
+        };
+        console.log("Question 36:", addPropertyToKey({
+            "name": "Kenneth",
+            "age": 28,
+            "data": {
+                "username": "kennethCodesAllDay",
+                "joinDate": "March 26, 2016",
+                "organization": "facebook",
+                "friends": ["Sam", "Kira", "Tomo"],
+                "location": {
+                    "city": "San Francisco",
+                    "state": "CA",
+                    "country": "USA"
+                }
+            }
+        }));
+
+
+
+        // Question37
+        let addPropertyToList = (obj) => {
+            let list = obj.data.friends.concat(["John", "Weisly", "Robin"]);
+            obj.data.friends = list;
+            return obj;
+        }
+        console.log("Question 37:", addPropertyToList({
+            "name": "Kenneth",
+            "age": 28,
+            "data": {
+                "username": "kennethCodesAllDay",
+                "joinDate": "March 26, 2016",
+                "organization": "facebook",
+                "friends": ["Sam", "Kira", "Tomo"],
+                "location": {
+                    "city": "San Francisco",
+                    "state": "CA",
+                    "country": "USA"
+                }
+            }
+        }));
+
+
+
+        // Question38
+        let myObject = {
+            height: 43,
+            width: 22,
+            rectangle: [22, 33],
+            addition:function addition(arr){
+                let sum=0;
+                for (let i=0;i<arr.length;i++){
+                    sum=sum+arr[i];
+                }
+                return sum;
+            }
+        };
+        console.log("Question 38:",myObject.addition([23,43,54,3,5,7,-34]));
+    </script>
+</body>
+
+</html>

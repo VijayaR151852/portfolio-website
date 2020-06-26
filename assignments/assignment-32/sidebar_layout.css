@@ -1,0 +1,30 @@
+body{
+    background-color:dodgerblue;
+    padding:0px;
+}
+
+.container{
+    background-color: white;
+    display:flex;
+    margin:15px;
+    height:100vh;
+    /*flex-wrap:wrap;*/
+}
+
+.item{
+    display:flex;
+    flex-direction:column;
+    padding:50px;
+    /*flex:1 1 auto;*/
+    color:dodgerblue;
+}
+
+.align{
+    align-self:flex-end;
+    flex:0 0 200px;
+}
+
+.border{
+    border-left:3px solid dodgerblue;
+    overflow:scroll;
+}

@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+#container{
+    display: flex;
+    justify-content:space-between;
+    height:70vh;
+    align-items:center;
+}
+img{
+  border: 1px solid black;
+  border-radius: 4px;
+}
+#prev{
+    display:flex;
+    font-size:30px;
+    font-weight:bold;
+}
+#next{
+    display:flex;
+    font-size:30px;
+    font-weight:bold;
+}
+#block{
+    flex:1;
+    height:85vh;
+    margin:15px;
+}
+body{
+    padding:30px;
+}
+
+#thumbnail{
+    display: flex;
+    justify-content:center;
+    align-items:center;   
+}

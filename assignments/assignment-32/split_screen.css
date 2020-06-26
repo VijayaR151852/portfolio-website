@@ -1,0 +1,29 @@
+body{
+    background-color:dodgerblue;
+    padding:0px;
+}
+
+.container{
+    background-color: white;
+    display:flex;
+    margin:15px;
+}
+
+.item{
+    flex:1;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content:center;
+    padding:50px;
+    height:100vh;
+    color:dodgerblue;
+}
+
+.container > .item{
+    border-left:4px solid dodgerblue;
+}
+
+.container:last-child{
+    border:0;
+}

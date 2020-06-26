@@ -1,0 +1,554 @@
+<html>
+  <head>
+    <title>Practice Set-2</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      h1,
+      h2 {
+        font-family: 'Montserrat', sans-serif;
+      }
+      table {
+        border-collapse: collapse;
+      }
+
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="practice-set-2">Practice set - 2</h1>
+    <p><a href="#Question-1">Question-1</a></p>
+    <p><a href="#Question-2">Question-2</a></p>
+    <p><a href="#Question-3">Question-3</a></p>
+    <p><a href="#Question-4">Question-4</a></p>
+    <p><a href="#Question-5">Question-5</a></p>
+    <p><a href="#Question-6">Question-6</a></p>
+    <p><a href="#Question-7">Question-7</a></p>
+    <p><a href="#Question-8">Question-8</a></p>
+    <p><a href="#Question-9">Question-9</a></p>
+    <p><a href="#Question-10">Question-10</a></p>
+    <p><a href="#Question-11">Question-11</a></p>
+    <p><a href="#Question-12">Question-12</a></p>
+    <p><a href="#Question-13">Question-13</a></p>
+    <p><a href="#Question-14">Question-14</a></p>
+    <p><a href="#Question-15">Question-15</a></p>
+    <p><a href="#Question-16">Question-16</a></p>
+    <p><a href="#Question-17">Question-17</a></p>
+    <p><a href="#Question-18">Question-18</a></p>
+    <p><a href="#Question-19">Question-19</a></p>
+    <p><a href="#Question-20">Question-20</a></p>
+    <p><a href="#Question-21">Question-21</a></p>
+    <p><a href="#Question-22">Question-22</a></p>
+    <p><a href="#Question-23">Question-23</a></p>
+    <p><a href="#Question-24">Question-24</a></p>
+    <p><a href="#Question-25">Question-25</a></p>
+    <p><a href="#Question-26">Question-26</a></p>
+    <p><a href="#Question-27">Question-27</a></p>
+    <p><a href="#Question-28">Question-28</a></p>
+    <p><a href="#Question-29">Question-29</a></p>
+    <p><a href="#Question-30">Question-30</a></p>
+    <p><a href="#Question-31">Question-31</a></p>
+    <h2 id="references">References</h2>
+    <h3 id="array-methods">Array Methods</h3>
+    <ul>
+      <li>
+        <a href="https://www.w3schools.com/jsref/jsref_obj_array.asp"
+          >w3schools</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array"
+          >MDN</a
+        >
+      </li>
+    </ul>
+    <h2 id="Question-1">Question-1</h2>
+    <p>
+      <strong>Problem Statement:</strong> Create an array so that it contains
+      both a string and a number(in the same order).
+    </p>
+    <p><strong>Output:</strong></p>
+    <pre><code class="lang-text">[<span class="hljs-string">"hello"</span>, <span class="hljs-number">1</span>]
+</code></pre>
+    <h2 id="Question-2">Question-2</h2>
+    <p>
+      <strong>Problem Statement:</strong> Create a nested array with the
+      following elements and display the nested array.
+    </p>
+    <p><strong>Input:</strong></p>
+    <pre><code class="lang-text">[<span class="hljs-string">"Bulls"</span>, <span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">23</span>, <span class="hljs-string">"one"</span>, <span class="hljs-string">"two"</span>, <span class="hljs-string">"White Sox"</span>, <span class="hljs-string">"three"</span>, <span class="hljs-number">45</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>]
+</code></pre>
+    <p><strong>Output:</strong></p>
+    <pre><code class="lang-text">[[<span class="hljs-string">"Bulls"</span> , <span class="hljs-number">23</span>, [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>, [<span class="hljs-string">"one"</span>, <span class="hljs-string">"two"</span>, <span class="hljs-string">"three"</span>]]], [<span class="hljs-string">"White Sox"</span>, <span class="hljs-number">45</span>]]
+</code></pre>
+    <h2 id="Question-3">Question-3</h2>
+    <p>
+      <strong>Problem Statement:</strong> Write a function to access array data
+      with indexes and display the value at first index.
+    </p>
+    <table>
+      <thead>
+        <tr>
+          <th>Input</th>
+          <th>Output</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>[ 2, 4 ]</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>[ 12, -37 ]</td>
+          <td>-37</td>
+        </tr>
+        <tr>
+          <td>[ 7, &quot;first index&quot; ]</td>
+          <td>first index</td>
+        </tr>
+      </tbody>
+    </table>
+    <h2 id="Question-4">Question-4</h2>
+    <p>
+      <strong>Problem Statement:</strong> Update the data stored in
+      <em>myArray</em> using indexes to get the desired output.
+    </p>
+    <p><strong>Input:</strong></p>
+    <pre><code class="lang-text">myArray = [<span class="hljs-number">18</span>, <span class="hljs-number">64</span>, <span class="hljs-number">99</span>]
+</code></pre>
+    <p><strong>Output:</strong></p>
+    <pre><code class="lang-text">[<span class="hljs-number">45</span>, <span class="hljs-number">64</span>, 'fifty four']
+</code></pre>
+    <h2 id="Question-5">Question-5</h2>
+    <p>
+      <strong>Problem Statement:</strong> Using bracket notation display 8 and
+      12 from the given array.
+    </p>
+    <p><strong>Input:</strong></p>
+    <pre><code class="lang-text">myArray = [[<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>], [<span class="hljs-number">4</span>, <span class="hljs-number">5</span>, <span class="hljs-number">6</span>], [<span class="hljs-number">7</span>, <span class="hljs-number">8</span>, <span class="hljs-number">9</span>], [[<span class="hljs-number">10</span>, <span class="hljs-number">11</span>, <span class="hljs-number">12</span>], <span class="hljs-number">13</span>, <span class="hljs-number">14</span>]]
+</code></pre>
+    <p><strong>Output:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-number">8</span>
+<span class="hljs-number">12</span>
+</code></pre>
+    <h2 id="Question-6">Question-6</h2>
+    <p>
+      <strong>Problem Statement:</strong> Add [&quot;dog&quot;, 3] onto the end
+      of the <em>myArray</em> variable.
+    </p>
+    <p><strong>Input:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-attr">myArray</span> = [<span class="hljs-string">"John"</span>, [<span class="hljs-number">2</span>], <span class="hljs-number">23</span>]
+</code></pre>
+    <p><strong>Output:</strong></p>
+    <pre><code class="lang-text">[<span class="hljs-string">"John"</span>, [<span class="hljs-number">2</span>], <span class="hljs-number">23</span>, [<span class="hljs-string">"dog"</span>, <span class="hljs-number">3</span>]]
+</code></pre>
+    <p><strong>Use only below concepts:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-keyword">Array</span> methods
+</code></pre>
+    <h2 id="Question-7">Question-7</h2>
+    <p>
+      <strong>Problem Statement:</strong> Display the length of the given array
+    </p>
+    <p><strong>Input:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-attr">myArray</span> = [<span class="hljs-string">"John"</span>, [<span class="hljs-number">2</span>], <span class="hljs-number">23</span>]
+</code></pre>
+    <p><strong>Output:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-number">3</span>
+</code></pre>
+    <p><strong>Use only below concepts:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-keyword">Array</span> properties
+</code></pre>
+    <h2 id="Question-8">Question-8</h2>
+    <p>
+      <strong>Problem Statement:</strong> Remove the last element from the given
+      array and display the removed element.
+    </p>
+    <p><strong>Input:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-attr">myArray</span> = [<span class="hljs-string">"John"</span>, [<span class="hljs-number">2</span>], <span class="hljs-number">23</span>]
+</code></pre>
+    <p><strong>Output:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-number">23</span>
+</code></pre>
+    <p><strong>Use only below concepts:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-keyword">Array</span> methods
+</code></pre>
+    <h2 id="Question-9">Question-9</h2>
+    <p>
+      <strong>Problem Statement:</strong> Remove the first element from the
+      given array and display the removed element.
+    </p>
+    <p><strong>Input:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-attr">myArray</span> = [<span class="hljs-string">"John"</span>, [<span class="hljs-number">2</span>], <span class="hljs-number">23</span>]
+</code></pre>
+    <p><strong>Output:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-attribute">John</span>
+</code></pre>
+    <p><strong>Use only below concepts:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-keyword">Array</span> methods - shift
+</code></pre>
+    <h2 id="Question-10">Question-10</h2>
+    <p>
+      <strong>Problem Statement:</strong> Add an element
+      <code>&quot;Good Evening&quot;</code> to the beginning of the given array.
+    </p>
+    <p><strong>Input:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-attr">myArray</span> = [<span class="hljs-string">"John"</span>, [<span class="hljs-number">2</span>], <span class="hljs-number">23</span>]
+</code></pre>
+    <p><strong>Output:</strong></p>
+    <pre><code class="lang-text">[<span class="hljs-string">"Good Evening"</span>, <span class="hljs-string">"John"</span>, [<span class="hljs-number">2</span>], <span class="hljs-number">23</span>]
+</code></pre>
+    <p><strong>Use only below concepts:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-keyword">Array</span> methods - unShift
+</code></pre>
+    <h2 id="Question-11">Question-11</h2>
+    <p>
+      <strong>Problem Statement:</strong> Remove the middle element from the
+      given array and display the updated array.
+    </p>
+    <p><strong>Input:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-attr">myArray</span> = [<span class="hljs-string">"John"</span>, [<span class="hljs-number">2</span>], <span class="hljs-number">23</span>]
+</code></pre>
+    <p><strong>Output:</strong></p>
+    <pre><code class="lang-text">[<span class="hljs-string">"John"</span>, <span class="hljs-number">23</span>]
+</code></pre>
+    <p><strong>Use only below concepts:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-keyword">Array</span> methods - <span class="hljs-built_in">splice</span>
+</code></pre>
+    <h2 id="Question-12">Question-12</h2>
+    <p>
+      <strong>Problem Statement:</strong> Remove consecutive elements so that
+      the sum of the remaining elements to be 10.
+    </p>
+    <p><strong>Note:</strong> Don&#39;t add any new elements.</p>
+    <p><strong>Input:</strong></p>
+    <pre><code class="lang-text">myArray = [<span class="hljs-number">2</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>, <span class="hljs-number">1</span>, <span class="hljs-number">7</span>, <span class="hljs-number">5</span>, <span class="hljs-number">2</span>, <span class="hljs-number">1</span>]
+</code></pre>
+    <p><strong>Output:</strong></p>
+    <pre><code class="lang-text">sum of the elements in the<span class="hljs-built_in"> array </span>should be equal to 10
+</code></pre>
+    <p><strong>Use only below concepts:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-keyword">Array</span> methods - <span class="hljs-built_in">splice</span>
+</code></pre>
+    <h2 id="Question-13">Question-13</h2>
+    <p>
+      <strong>Problem Statement:</strong> Extract two consecutive elements
+      <code>[12, 13]</code> from the given array without changing the original
+      array.
+    </p>
+    <p><strong>Input:</strong></p>
+    <pre><code class="lang-text">[<span class="hljs-number">10</span>, <span class="hljs-number">11</span>, <span class="hljs-number">12</span>, <span class="hljs-number">13</span>, <span class="hljs-number">14</span>, <span class="hljs-number">15</span>]
+</code></pre>
+    <p><strong>Output:</strong></p>
+    <pre><code class="lang-text">[<span class="hljs-number">12</span>, <span class="hljs-number">13</span>]
+</code></pre>
+    <p><strong>Use only below concepts:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-keyword">Array</span> methods - slice
+</code></pre>
+    <h2 id="Question-14">Question-14</h2>
+    <p>
+      <strong>Problem Statement:</strong> Find the index of the element
+      <code>3</code> in the given array.
+    </p>
+    <p><strong>Input:</strong></p>
+    <pre><code class="lang-text">[<span class="hljs-number">1</span>, <span class="hljs-string">"two"</span>, <span class="hljs-number">3</span>, <span class="hljs-string">"four"</span>]
+</code></pre>
+    <p><strong>Output:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-number">2</span>
+</code></pre>
+    <p><strong>Use only below concepts:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-keyword">Array</span> methods - indexOf
+</code></pre>
+    <h2 id="Question-15">Question-15</h2>
+    <p>
+      <strong>Problem Statement:</strong> Find the index of the element
+      <code>5</code> in the given array.
+    </p>
+    <p><strong>Input:</strong></p>
+    <pre><code class="lang-text">[<span class="hljs-number">1</span>, <span class="hljs-string">"two"</span>, <span class="hljs-number">3</span>, <span class="hljs-string">"four"</span>]
+</code></pre>
+    <p><strong>Output:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-deletion">-1</span>
+</code></pre>
+    <p><strong>Use only below concepts:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-keyword">Array</span> methods - indexOf
+</code></pre>
+    <h2 id="Question-16">Question-16</h2>
+    <p>
+      <strong>Problem Statement:</strong> Find the index of the element
+      <code>&quot;two&quot;</code> in the given array.
+    </p>
+    <p><strong>Input:</strong></p>
+    <pre><code class="lang-text">[<span class="hljs-number">1</span>, [<span class="hljs-string">"two"</span>, <span class="hljs-number">3</span>], <span class="hljs-string">"four"</span>]
+</code></pre>
+    <p><strong>Output:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-number">0</span>
+</code></pre>
+    <p><strong>Use only below concepts:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-keyword">Array</span> <span class="hljs-function"><span class="hljs-keyword">method</span> - <span class="hljs-title">indexOf</span></span>
+</code></pre>
+    <h2 id="Question-17">Question-17</h2>
+    <p>
+      <strong>Problem Statement:</strong> Find and display the index of the last
+      occurrence of an element <code>a</code> in the given array.
+    </p>
+    <p><strong>Input:</strong></p>
+    <pre><code class="lang-text">[<span class="hljs-string">"a"</span>, <span class="hljs-string">"b"</span>, <span class="hljs-string">"a"</span>, <span class="hljs-string">"a"</span>, <span class="hljs-string">"e"</span>, <span class="hljs-string">"a"</span>, <span class="hljs-string">"f"</span>]
+</code></pre>
+    <p><strong>Output:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-number">5</span>
+</code></pre>
+    <p><strong>Use only below concepts:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-attribute">Array</span> methods - <span class="hljs-literal">last</span>IndexOf
+</code></pre>
+    <h2 id="Question-18">Question-18</h2>
+    <p>
+      <strong>Problem Statement:</strong> Write a function to add an element
+      <code>&quot;new element&quot;</code> at the end of the given array without
+      using Array methods.
+    </p>
+    <p><strong>Input:</strong></p>
+    <pre><code class="lang-text">[<span class="hljs-number">1</span>, [<span class="hljs-string">"two"</span>, <span class="hljs-number">3</span>], <span class="hljs-string">"four"</span>]
+</code></pre>
+    <p><strong>Output:</strong></p>
+    <pre><code class="lang-text">[<span class="hljs-number">1</span>, [<span class="hljs-string">"two"</span>, <span class="hljs-number">3</span>], <span class="hljs-string">"four"</span>, <span class="hljs-string">"new element"</span>]
+</code></pre>
+    <p><strong>Use only below concepts:</strong></p>
+    <pre><code class="lang-text">Array <span class="hljs-keyword">property</span><span class="hljs-title"></span>
+</code></pre>
+    <h2 id="Question-19">Question-19</h2>
+    <p>
+      <strong>Problem Statement:</strong> Add multiple elements
+      <code>&quot;new element&quot;, 12, 15, 16, 17</code> at the end of the
+      given array.
+    </p>
+    <p><strong>Input:</strong></p>
+    <pre><code class="lang-text">[<span class="hljs-number">1</span>, [<span class="hljs-string">"two"</span>, <span class="hljs-number">3</span>], <span class="hljs-string">"four"</span>]
+</code></pre>
+    <p><strong>Output</strong></p>
+    <pre><code class="lang-text">[<span class="hljs-number">1</span>, [<span class="hljs-string">"two"</span>, <span class="hljs-number">3</span>], <span class="hljs-string">"four"</span>, <span class="hljs-string">"new element"</span>, <span class="hljs-number">12</span>, <span class="hljs-number">15</span>, <span class="hljs-number">16</span>, <span class="hljs-number">17</span>]
+</code></pre>
+    <h2 id="Question-20">Question-20</h2>
+    <p>
+      <strong>Problem Statement:</strong> Combine the given array of elements
+      and <code>[2, 4]</code>.
+    </p>
+    <p><strong>Input:</strong></p>
+    <pre><code class="lang-text">[<span class="hljs-number">1</span>, [<span class="hljs-string">"two"</span>, <span class="hljs-number">3</span>], <span class="hljs-string">"four"</span>]
+</code></pre>
+    <p><strong>Output:</strong></p>
+    <pre><code class="lang-text">[<span class="hljs-number">1</span>, [<span class="hljs-string">"two"</span>, <span class="hljs-number">3</span>], <span class="hljs-string">"four"</span>, <span class="hljs-number">2</span>, <span class="hljs-number">4</span>]
+</code></pre>
+    <p><strong>Use only below concepts:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-keyword">Array</span> methods - <span class="hljs-keyword">concat</span>
+</code></pre>
+    <h2 id="Question-21">Question-21</h2>
+    <p>
+      <strong>Problem Statement:</strong> Replace the last 3 elements in
+      <em>myArray</em> with the following elements
+      <code>“one”, “two”, “three”</code> and display <em>myArray</em>.
+    </p>
+    <p><strong>Input:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-attr">myArray</span>=[<span class="hljs-string">"a"</span>, <span class="hljs-string">"b"</span>, <span class="hljs-string">"c"</span>, <span class="hljs-string">"d"</span>, <span class="hljs-string">"e"</span>, <span class="hljs-string">"f"</span>, <span class="hljs-string">"g"</span>]
+</code></pre>
+    <p><strong>Output:</strong></p>
+    <pre><code class="lang-text">[ <span class="hljs-string">"a"</span>, <span class="hljs-string">"b"</span>, <span class="hljs-string">"c"</span>, <span class="hljs-string">"d"</span>, <span class="hljs-string">"one"</span>, <span class="hljs-string">"two"</span>, <span class="hljs-string">"three"</span> ]
+</code></pre>
+    <p><strong>Use only below concepts:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-keyword">Array</span> methods - <span class="hljs-built_in">splice</span>
+</code></pre>
+    <h2 id="Question-22">Question-22</h2>
+    <p>
+      <strong>Problem Statement:</strong> Derive the output from the given input
+      array.
+    </p>
+    <p><strong>Input:</strong></p>
+    <pre><code class="lang-text">[<span class="hljs-number">10</span>, <span class="hljs-number">11</span>, <span class="hljs-number">12</span>, <span class="hljs-number">12</span>, <span class="hljs-number">15</span>]
+</code></pre>
+    <p><strong>Output:</strong></p>
+    <pre><code class="lang-text">[<span class="hljs-number">10</span>, <span class="hljs-number">11</span>, <span class="hljs-number">12</span>, <span class="hljs-number">13</span>, <span class="hljs-number">14</span>, <span class="hljs-number">15</span>]
+</code></pre>
+    <p><strong>Use only below concepts:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-keyword">Array</span> methods - <span class="hljs-built_in">splice</span>
+</code></pre>
+    <h2 id="Question-23">Question-23</h2>
+    <p>
+      <strong>Problem Statement:</strong> Sort the order of elements in
+      <em>myArray</em> in ascending order.
+    </p>
+    <p><strong>Input:</strong></p>
+    <pre><code class="lang-text">myArray=[<span class="hljs-number">2</span>, <span class="hljs-number">4</span>, <span class="hljs-number">1</span>, <span class="hljs-number">0</span>, <span class="hljs-number">5</span>]
+</code></pre>
+    <p><strong>Output:</strong></p>
+    <pre><code class="lang-text">[<span class="hljs-number">0</span>, <span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>]
+</code></pre>
+    <p><strong>Use only below concepts:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-keyword">Array</span> methods - <span class="hljs-built_in">sort</span>
+</code></pre>
+    <h2 id="Question-24">Question-24</h2>
+    <p>
+      <strong>Problem Statement:</strong> Convert the given array of elements to
+      a single string separated by a space.
+    </p>
+    <p><strong>Input:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-attr">myArray</span>=[<span class="hljs-string">'Hello'</span>, <span class="hljs-string">'Good'</span>, <span class="hljs-string">'Morning'</span>]
+</code></pre>
+    <p><strong>Output:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-attribute">Hello Good Morning</span>
+</code></pre>
+    <p><strong>Use only below concepts:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-keyword">Array</span> <span class="hljs-function"><span class="hljs-keyword">method</span> - <span class="hljs-title">join</span></span>
+</code></pre>
+    <h2 id="Question-25">Question-25</h2>
+    <p>
+      <strong>Problem Statement:</strong> Reverse the order of elements in
+      <em>myArray</em>.
+    </p>
+    <p><strong>Input:</strong></p>
+    <pre><code class="lang-text">myArray=[<span class="hljs-number">2</span>, <span class="hljs-number">4</span>, <span class="hljs-number">1</span>, <span class="hljs-number">0</span>, <span class="hljs-number">5</span>]
+</code></pre>
+    <p><strong>Output:</strong></p>
+    <pre><code class="lang-text">[<span class="hljs-number">5</span>, <span class="hljs-number">0</span>, <span class="hljs-number">1</span>, <span class="hljs-number">4</span>, <span class="hljs-number">2</span>]
+</code></pre>
+    <p><strong>Use only below concepts:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-keyword">Array</span> methods - <span class="hljs-keyword">reverse</span>
+</code></pre>
+    <h2 id="Question-26">Question-26</h2>
+    <p>
+      <strong>Problem Statement:</strong> Display the values of the properties
+      <code>hat, shirt, shoes</code>.
+    </p>
+    <p><strong>Input:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-attribute">costumes</span> = {
+  <span class="hljs-string">"hat"</span>: <span class="hljs-string">"ballcap"</span>,
+  <span class="hljs-string">"shirt"</span>: <span class="hljs-string">"jersey"</span>,
+  <span class="hljs-string">"shoes"</span>: <span class="hljs-string">"cleats"</span>
+}
+</code></pre>
+    <p><strong>Output:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-keyword">ballCap
+</span><span class="hljs-keyword">jersey
+</span>cleats
+</code></pre>
+    <p><strong>Use only below concepts:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-attribute">Dot notation</span>
+</code></pre>
+    <h2 id="Question-27">Question-27</h2>
+    <p>
+      <strong>Problem Statement:</strong> Display the values of the properties
+      <code
+        >&quot;model name&quot;,&quot;fuel type&quot; and &quot;drive
+        mode&quot;</code
+      >.
+    </p>
+    <p><strong>Input:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-attribute">car</span> = {
+  <span class="hljs-string">"model name"</span>: <span class="hljs-string">"verna"</span>,
+  <span class="hljs-string">"fuel type"</span>: <span class="hljs-string">"petrol"</span>,
+  <span class="hljs-string">"drive mode"</span>: <span class="hljs-string">"manual"</span>
+}
+</code></pre>
+    <p><strong>Output:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-attribute">verna
+petrol
+manual</span>
+</code></pre>
+    <p><strong>Use only below concepts:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-keyword">Bracket </span>notation
+</code></pre>
+    <h2 id="Question-28">Question-28</h2>
+    <p>
+      <strong>Problem Statement:</strong> Update the value of
+      <code>name</code> property to <code>&quot;Kimmie&quot;</code> in
+      <em>myDog</em> object.
+    </p>
+    <p><strong>Input:</strong></p>
+    <pre><code class="lang-text">myDog = {
+  <span class="hljs-string">"name"</span>: <span class="hljs-string">"Coder"</span>,
+  <span class="hljs-string">"legs"</span>: <span class="hljs-number">4</span>,
+  <span class="hljs-string">"tails"</span>: <span class="hljs-number">1</span>,
+  <span class="hljs-string">"friends"</span>: [<span class="hljs-string">"puppie"</span>]
+}
+<span class="hljs-function"><span class="hljs-title">alert</span><span class="hljs-params">(myDog.name)</span></span>
+</code></pre>
+    <p><strong>Output:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-attribute">Kimmie</span>
+</code></pre>
+    <p><strong>Use only below concepts:</strong></p>
+    <pre><code class="lang-text">Dot notation <span class="hljs-keyword">or </span><span class="hljs-keyword">Bracket </span>notation
+</code></pre>
+    <h2 id="Question-29">Question-29</h2>
+    <p>
+      <strong>Problem Statement:</strong>: Add a <code>bark</code> property to
+      <em>myDog</em> and set its values as <code>&quot;woof&quot;</code>.
+    </p>
+    <p><strong>Input:</strong></p>
+    <pre><code class="lang-text">myDog = {
+  <span class="hljs-string">"name"</span>: <span class="hljs-string">"Coder"</span>,
+  <span class="hljs-string">"legs"</span>: <span class="hljs-number">4</span>,
+  <span class="hljs-string">"tails"</span>: <span class="hljs-number">1</span>,
+  <span class="hljs-string">"friends"</span>: [<span class="hljs-string">"puppie"</span>]
+}
+<span class="hljs-function"><span class="hljs-title">alert</span><span class="hljs-params">(myDog.bark)</span></span>
+</code></pre>
+    <p><strong>Output:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-attribute">woof</span>
+</code></pre>
+    <p><strong>Use only below concepts:</strong></p>
+    <pre><code class="lang-text">Dot notation <span class="hljs-keyword">or </span><span class="hljs-keyword">Bracket </span>notation
+</code></pre>
+    <h2 id="Question-30">Question-30</h2>
+    <p>
+      <strong>Problem Statement:</strong> Delete the <code>tails</code> property
+      from <em>myDog</em> and check that the property is deleted or not from
+      <em>myDog</em> object.
+    </p>
+    <p><strong>Input:</strong></p>
+    <pre><code class="lang-text">myDog = {
+  <span class="hljs-string">"name"</span>: <span class="hljs-string">"Kimmie"</span>,
+  <span class="hljs-string">"legs"</span>: <span class="hljs-number">4</span>,
+  <span class="hljs-string">"tails"</span>: <span class="hljs-number">1</span>,
+  <span class="hljs-string">"friends"</span>: [<span class="hljs-string">"puppie"</span>]
+}
+<span class="hljs-function"><span class="hljs-title">alert</span><span class="hljs-params">(myDog.tails)</span></span>
+</code></pre>
+    <p><strong>Output:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-literal">undefined</span>
+</code></pre>
+    <p><strong>Use only below concepts:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-keyword">Delete</span> <span class="hljs-keyword">operator</span>
+</code></pre>
+    <h2 id="Question-31">Question-31</h2>
+    <p>
+      <strong>Problem Statement:</strong> Write a function
+      <em>isPropertyExists</em> to check if the properties <code>bottom</code>,
+      <code>middle</code> of a given object exists or not.
+    </p>
+    <p><strong>Input:</strong></p>
+    <pre><code class="lang-text">positions = {
+  <span class="hljs-attribute">top</span>: <span class="hljs-string">"hat"</span>,
+  <span class="hljs-attribute">bottom</span>: <span class="hljs-string">"pants"</span>
+}
+
+<span class="hljs-function"><span class="hljs-title">alert</span><span class="hljs-params">(isPropertyExists(positions, <span class="hljs-string">"bottom"</span>)</span></span>)
+<span class="hljs-function"><span class="hljs-title">alert</span><span class="hljs-params">(isPropertyExists(positions, <span class="hljs-string">"middle"</span>)</span></span>)
+</code></pre>
+    <p><strong>Output:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-literal">true</span>
+<span class="hljs-literal">false</span>
+</code></pre>
+    <p><strong>Use only below concepts:</strong></p>
+    <pre><code class="lang-text"><span class="hljs-built_in">Object</span> methods
+</code></pre>
+  </body>
+</html>

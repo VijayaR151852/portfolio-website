@@ -1,0 +1,3 @@
+Equality:
+1.Strict equality (same value+same datatype(===))
+2.Lose equality(same value but different or same data type(==))
